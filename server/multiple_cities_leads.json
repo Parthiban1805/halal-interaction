@@ -1,0 +1,3997 @@
+[
+  {
+    "_id": "6a3cc137d6cff81164660b27",
+    "username": "ferozee_a_mariyam",
+    "platformUserId": "1547973026838460",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Following Up",
+    "priority": "hot",
+    "tags": [],
+    "activePathStepIndex": 0,
+    "createdAt": "2026-06-25T05:48:39.252Z",
+    "updatedAt": "2026-07-31T11:35:48.616Z",
+    "__v": 1,
+    "isPipelineLead": true,
+    "statusHistory": [
+      {
+        "status": "New",
+        "timestamp": "2026-06-25T05:48:39.252Z",
+        "_id": "6a46366980f7c60ef013fe56"
+      },
+      {
+        "status": "new",
+        "timestamp": "2026-06-25T05:48:39.252Z",
+        "_id": "6a46366980f7c60ef013fe57"
+      },
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-07-07T06:13:00.094Z",
+        "_id": "6a4c98ec0d1ac564fe91adf5"
+      },
+      {
+        "status": "Following Up",
+        "timestamp": "2026-07-07T14:45:50.787Z",
+        "_id": "6a4d111e1b5621aa525f65ae"
+      }
+    ],
+    "activePathId": "fzop7ir58",
+    "notes": [
+      {
+        "text": "wants to pay in installments",
+        "status": "Following Up",
+        "createdBy": "6a442de8b1bb3e95908be7f2",
+        "createdAt": "2026-07-07T14:45:50.792Z",
+        "_id": "6a4d111e1b5621aa525f65ad"
+      },
+      {
+        "text": "Sent wahtsapp message",
+        "status": "Contacted",
+        "createdBy": "6a442de8b1bb3e95908be7f2",
+        "createdAt": "2026-07-07T06:13:00.099Z",
+        "_id": "6a4c98ec0d1ac564fe91adf4"
+      }
+    ],
+    "phone": "+917358014995",
+    "assignedTo": "6a442de8b1bb3e95908be7f2",
+    "city": "Chennai, Tamil Nadu",
+    "email": "",
+    "name": "Feroza Mariyam",
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false
+  },
+  {
+    "_id": "6a3cc1a0d6cff81164660dd0",
+    "username": "navazuddin_shaik",
+    "platformUserId": "2053871412232807",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Call Later",
+    "priority": "hot",
+    "tags": [],
+    "activePathStepIndex": 1,
+    "createdAt": "2026-06-25T05:50:24.279Z",
+    "updatedAt": "2026-07-31T11:35:52.341Z",
+    "__v": 1,
+    "isPipelineLead": true,
+    "statusHistory": [
+      {
+        "status": "New",
+        "timestamp": "2026-06-25T05:50:24.279Z",
+        "_id": "6a46368780f7c60ef01403a8"
+      },
+      {
+        "status": "new",
+        "timestamp": "2026-06-25T05:50:24.279Z",
+        "_id": "6a46368780f7c60ef01403a9"
+      },
+      {
+        "status": "Not Picking",
+        "timestamp": "2026-07-07T08:38:22.743Z",
+        "_id": "6a4cbafe0d1ac564fe925ef1"
+      },
+      {
+        "status": "Call Later",
+        "timestamp": "2026-07-07T12:54:20.691Z",
+        "_id": "6a4cf6fc1b5621aa525dcb11"
+      }
+    ],
+    "activePathId": "fzop7ir58",
+    "notes": [
+      {
+        "text": ".",
+        "status": "Call Later",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-07T12:54:20.697Z",
+        "_id": "6a4cf6fc1b5621aa525dcb10"
+      },
+      {
+        "text": "called",
+        "status": "Not Picking",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-07T08:38:22.748Z",
+        "_id": "6a4cbafe0d1ac564fe925ef0"
+      },
+      {
+        "text": "dint pic",
+        "status": "New",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-07T08:38:19.161Z",
+        "_id": "6a4cbafb0d1ac564fe925ee8"
+      }
+    ],
+    "phone": "+919160106001",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "kadapa/ AP",
+    "email": "",
+    "name": "Nawazuddin Shaikh kadapa",
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isCancellation": false,
+    "isDeleted": false,
+    "isDowngrade": false,
+    "isRenewal": false,
+    "isUpgrade": false
+  },
+  {
+    "_id": "6a3ce65f203de765c1776db0",
+    "username": "lifestylecoach4all",
+    "platformUserId": "1601978861259649",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Not Picking",
+    "priority": "hot",
+    "tags": [],
+    "activePathId": "gcy44su7c",
+    "activePathStepIndex": 1,
+    "createdAt": "2026-06-25T01:38:08.361Z",
+    "updatedAt": "2026-08-21T11:50:26.992Z",
+    "__v": 1,
+    "isPipelineLead": true,
+    "statusHistory": [
+      {
+        "status": "New",
+        "timestamp": "2026-06-25T01:38:08.361Z",
+        "_id": "6a4636a680f7c60ef014094e"
+      },
+      {
+        "status": "new",
+        "timestamp": "2026-06-25T01:38:08.361Z",
+        "_id": "6a4636a680f7c60ef014094f"
+      },
+      {
+        "status": "Not Picking",
+        "timestamp": "2026-08-21T11:50:26.972Z",
+        "_id": "6a883b8241cd4645a23813b5"
+      }
+    ],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Not Picking",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-21T11:50:26.992Z",
+        "_id": "6a883b8241cd4645a23813b4"
+      }
+    ],
+    "phone": "+919986042912",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Mysore/Bangalore",
+    "email": "",
+    "name": "lifecoach mys/bang"
+  },
+  {
+    "_id": "6a42411eb1bb3e95908be43c",
+    "username": "_ariful_2",
+    "platformUserId": "1038382129142902",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Lost",
+    "priority": "hot",
+    "tags": [],
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "createdAt": "2026-06-29T09:55:42.059Z",
+    "updatedAt": "2026-08-22T13:17:04.174Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+916033290867",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Bangalore he ",
+    "email": "",
+    "name": "Ariful islam bang ",
+    "notesHistory": [
+      {
+        "text": "He has asked time till 5th July ",
+        "status": "contacted",
+        "createdAt": "2026-06-29T09:55:42.059Z"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "New",
+        "timestamp": "2026-06-29T09:55:42.059Z",
+        "_id": "6a4636bf80f7c60ef0140df8"
+      },
+      {
+        "status": "contacted",
+        "timestamp": "2026-06-30T08:54:50.645Z",
+        "_id": "6a4636bf80f7c60ef0140df9"
+      },
+      {
+        "status": "Following Up",
+        "timestamp": "2026-07-03T08:34:34.077Z",
+        "_id": "6a47741a54385a854746ecfc"
+      },
+      {
+        "status": "Payment Pending",
+        "timestamp": "2026-07-03T08:35:37.073Z",
+        "_id": "6a47745954385a8547470645"
+      },
+      {
+        "status": "On Hold",
+        "timestamp": "2026-08-22T06:55:44.615Z",
+        "_id": "6a8947f08adc651fa4d0f466"
+      },
+      {
+        "status": "Lost",
+        "timestamp": "2026-08-22T13:17:04.166Z",
+        "_id": "6a89a1508adc651fa4d14196"
+      }
+    ],
+    "notes": [
+      {
+        "text": ".",
+        "status": "Lost",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-22T13:17:04.174Z",
+        "_id": "6a89a1508adc651fa4d14195"
+      },
+      {
+        "text": ".",
+        "status": "On Hold",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-22T06:55:44.621Z",
+        "_id": "6a8947f08adc651fa4d0f465"
+      },
+      {
+        "text": "5 july",
+        "status": "Payment Pending",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-03T08:35:37.073Z",
+        "_id": "6a47745954385a8547470644"
+      },
+      {
+        "text": "Following up",
+        "status": "Following Up",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-03T08:34:34.077Z",
+        "_id": "6a47741a54385a854746ecfb"
+      },
+      {
+        "text": "May he 5th he will pay",
+        "status": "Contacted",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-03T08:34:30.426Z",
+        "_id": "6a47741654385a854746ecf4"
+      }
+    ]
+  },
+  {
+    "_id": "6a438816b1bb3e95908be6b3",
+    "username": "shahin.vlogz",
+    "platformUserId": "923786020725974",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Pitched Membership",
+    "priority": "hot",
+    "tags": [],
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "createdAt": "2026-06-30T09:10:46.124Z",
+    "updatedAt": "2026-08-20T12:51:12.641Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+918220898933",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Hosur/Bangalore",
+    "email": "",
+    "name": "Shahin hosur/bang",
+    "notes": [
+      {
+        "text": ".",
+        "status": "Pitched Membership",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-20T12:51:12.641Z",
+        "_id": "6a86f84041cd4645a2376ab3"
+      },
+      {
+        "text": "thauseef bahi transfer",
+        "status": "New",
+        "createdBy": "6a3e855351146d1cf313b87d",
+        "createdAt": "2026-08-19T10:48:38.209Z",
+        "_id": "6a858a0641cd4645a23715cd"
+      },
+      {
+        "text": "",
+        "status": "new",
+        "createdAt": "2026-06-30T09:34:49.504Z"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "New",
+        "timestamp": "2026-06-30T09:10:46.124Z",
+        "_id": "6a4636c580f7c60ef0140f0c"
+      },
+      {
+        "status": "new",
+        "timestamp": "2026-06-30T09:34:49.504Z",
+        "_id": "6a4636c580f7c60ef0140f0d"
+      },
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-08-20T12:51:12.636Z",
+        "_id": "6a86f84041cd4645a2376ab4"
+      }
+    ]
+  },
+  {
+    "_id": "6a43b3b9b1bb3e95908be70d",
+    "username": "ghouse_farooq",
+    "platformUserId": "1344699034297865",
+    "platform": "instagram",
+    "source": "dm",
+    "status": "Sent WhatsApp",
+    "priority": "hot",
+    "tags": [],
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "createdAt": "2026-06-30T12:16:57.086Z",
+    "updatedAt": "2026-07-31T11:36:23.315Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+918073726805",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Mysore/Bangalore",
+    "email": "",
+    "name": "Ghouse farooq mysore/bang",
+    "notes": [
+      {
+        "text": "called",
+        "status": "Contacted",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-06T11:09:01.648Z",
+        "_id": "6a4b8ccde3c7f82cb08d4aae"
+      },
+      {
+        "text": "details given on \nWA",
+        "status": "Not Picking",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-06T11:08:58.156Z",
+        "_id": "6a4b8ccae3c7f82cb08d4a9e"
+      },
+      {
+        "text": "did not pick up",
+        "status": "Not Picking",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-06T10:24:59.989Z",
+        "_id": "6a4b827be3c7f82cb08afb14"
+      },
+      {
+        "text": "did not pick up",
+        "status": "New",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-06T10:24:56.856Z",
+        "_id": "6a4b8278e3c7f82cb08afb0a"
+      },
+      {
+        "text": "",
+        "status": "new",
+        "createdAt": "2026-06-30T12:32:56.687Z"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "New",
+        "timestamp": "2026-06-30T12:16:57.086Z",
+        "_id": "6a4636c680f7c60ef0140f3c"
+      },
+      {
+        "status": "new",
+        "timestamp": "2026-06-30T12:32:56.687Z",
+        "_id": "6a4636c680f7c60ef0140f3d"
+      },
+      {
+        "status": "Not Picking",
+        "timestamp": "2026-07-06T10:24:59.984Z",
+        "_id": "6a4b827be3c7f82cb08afb15"
+      },
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-07-06T11:09:01.643Z",
+        "_id": "6a4b8ccde3c7f82cb08d4aaf"
+      }
+    ],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false
+  },
+  {
+    "_id": "6a455768b1bb3e95908be968",
+    "username": "IG_User_1539795171083953",
+    "platformUserId": "1539795171083953",
+    "platform": "instagram",
+    "source": "dm",
+    "status": "Following Up",
+    "priority": "hot",
+    "tags": [],
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "createdAt": "2026-07-01T18:07:36.248Z",
+    "updatedAt": "2026-07-31T11:36:30.164Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+918123070143",
+    "assignedTo": "6a442dc0b1bb3e95908be7f1",
+    "city": "Vijayapura, Karnataka",
+    "email": "",
+    "name": "Tabarez",
+    "notes": [
+      {
+        "text": "follow up sent",
+        "status": "Following Up",
+        "createdBy": "6a442dc0b1bb3e95908be7f1",
+        "createdAt": "2026-07-24T12:16:56.663Z",
+        "_id": "6a6357b894482b58f4635b42"
+      },
+      {
+        "text": "event details sent",
+        "status": "Following Up",
+        "createdBy": "6a442dc0b1bb3e95908be7f1",
+        "createdAt": "2026-07-16T17:32:00.921Z",
+        "_id": "6a591590683eb9402872a96f"
+      },
+      {
+        "text": "Whatsapp text sent, \n\ncall post zohar",
+        "status": "Following Up",
+        "createdBy": "6a442dc0b1bb3e95908be7f1",
+        "createdAt": "2026-07-11T07:40:35.542Z",
+        "_id": "6a51f3737f2521fe859b91de"
+      },
+      {
+        "text": "follow up txt sent",
+        "status": "Following Up",
+        "createdBy": "6a442dc0b1bb3e95908be7f1",
+        "createdAt": "2026-07-07T07:25:29.450Z",
+        "_id": "6a4ca9e90d1ac564fe91e1a3"
+      },
+      {
+        "text": "Call appointment scheduled for 3 pm",
+        "status": "Following Up",
+        "createdBy": "6a442dc0b1bb3e95908be7f1",
+        "createdAt": "2026-07-03T08:27:01.386Z",
+        "_id": "6a47725554385a854746e84f"
+      },
+      {
+        "text": "",
+        "status": "new",
+        "createdAt": "2026-07-01T20:58:29.276Z"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "New",
+        "timestamp": "2026-07-01T18:07:36.248Z",
+        "_id": "6a4636cb80f7c60ef014103a"
+      },
+      {
+        "status": "new",
+        "timestamp": "2026-07-01T20:58:29.276Z",
+        "_id": "6a4636cb80f7c60ef014103b"
+      },
+      {
+        "status": "Following Up",
+        "timestamp": "2026-07-03T08:27:01.386Z",
+        "_id": "6a47725554385a854746e850"
+      }
+    ]
+  },
+  {
+    "_id": "6a46291db1bb3e95908beabb",
+    "username": "IG_User_1336007365401196",
+    "platformUserId": "1336007365401196",
+    "platform": "instagram",
+    "source": "dm",
+    "status": "On Hold",
+    "priority": "hot",
+    "tags": [],
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "createdAt": "2026-07-02T09:02:21.153Z",
+    "updatedAt": "2026-07-31T11:36:33.630Z",
+    "__v": 1,
+    "activePathId": "fzop7ir58",
+    "statusHistory": [
+      {
+        "status": "New",
+        "timestamp": "2026-07-02T09:02:21.153Z",
+        "_id": "6a4636ce80f7c60ef01410cc"
+      },
+      {
+        "status": "new",
+        "timestamp": "2026-07-02T09:02:22.037Z",
+        "_id": "6a4636ce80f7c60ef01410cd"
+      },
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-07-07T06:55:23.477Z",
+        "_id": "6a4ca2db0d1ac564fe91d4ce"
+      },
+      {
+        "status": "Call Later",
+        "timestamp": "2026-07-14T07:09:14.806Z",
+        "_id": "6a55e09a7f2521fe85affd9a"
+      },
+      {
+        "status": "On Hold",
+        "timestamp": "2026-07-24T11:52:27.452Z",
+        "_id": "6a6351fb94482b58f4635905"
+      }
+    ],
+    "notes": [
+      {
+        "text": "no replies, responses, follow up text sent again",
+        "status": "On Hold",
+        "createdBy": "6a442dc0b1bb3e95908be7f1",
+        "createdAt": "2026-07-24T11:52:27.457Z",
+        "_id": "6a6351fb94482b58f4635904"
+      },
+      {
+        "text": "rnr, call today",
+        "status": "Call Later",
+        "createdBy": "6a442dc0b1bb3e95908be7f1",
+        "createdAt": "2026-07-14T07:09:14.826Z",
+        "_id": "6a55e09a7f2521fe85affd99"
+      },
+      {
+        "text": "Call scheduled for 6 pm",
+        "status": "Contacted",
+        "createdBy": "6a442dc0b1bb3e95908be7f1",
+        "createdAt": "2026-07-07T06:55:23.495Z",
+        "_id": "6a4ca2db0d1ac564fe91d4cd"
+      }
+    ],
+    "phone": "+919566121139",
+    "assignedTo": "6a442dc0b1bb3e95908be7f1",
+    "city": "Chennai, Bangalore",
+    "email": "",
+    "name": "Afzal Shariff",
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false
+  },
+  {
+    "_id": "6a47f8d954385a8547504c46",
+    "username": "imran__619",
+    "platformUserId": "3014195685435849",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Not Picking",
+    "priority": "hot",
+    "tags": [],
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": "9704477153\nalternative no",
+        "status": "Not Picking",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-30T06:34:08.518Z",
+        "_id": "6a6af0608980ab9aa38b5ad1"
+      },
+      {
+        "text": ".",
+        "status": "Not Picking",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-10T13:52:59.438Z",
+        "_id": "6a50f93b7f2521fe8598156b"
+      },
+      {
+        "text": ".",
+        "status": "On Hold",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-10T13:52:45.773Z",
+        "_id": "6a50f92d7f2521fe85981554"
+      },
+      {
+        "text": "Asked to call letter",
+        "status": "Contacted",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-04T12:02:06.327Z",
+        "_id": "6a48f63e448e1517176687be"
+      },
+      {
+        "text": "Call after 30 minutes",
+        "status": "New",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-04T12:02:03.118Z",
+        "_id": "6a48f63b448e1517176687bb"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-07-04T12:02:06.327Z",
+        "_id": "6a48f63e448e1517176687bf"
+      },
+      {
+        "status": "On Hold",
+        "timestamp": "2026-07-10T13:52:45.767Z",
+        "_id": "6a50f92d7f2521fe85981555"
+      },
+      {
+        "status": "Not Picking",
+        "timestamp": "2026-07-10T13:52:59.433Z",
+        "_id": "6a50f93b7f2521fe8598156c"
+      }
+    ],
+    "createdAt": "2026-07-03T18:00:57.235Z",
+    "updatedAt": "2026-07-31T11:36:37.207Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+918121653153",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Nandyal AP",
+    "email": "",
+    "name": "Imran Nandyal AP",
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false
+  },
+  {
+    "_id": "6a48a41554385a854755e947",
+    "username": "bashaiamjad",
+    "platformUserId": "1849316509785967",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Payment Pending",
+    "priority": "hot",
+    "tags": [],
+    "isPipelineLead": true,
+    "activePathStepIndex": 1,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Payment Pending",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-11T11:06:17.818Z",
+        "_id": "6a5223a97f2521fe859f4e10"
+      },
+      {
+        "text": ".",
+        "status": "Contacted",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-08T12:20:46.995Z",
+        "_id": "6a4e409e397f03c9437845a8"
+      },
+      {
+        "text": "details given",
+        "status": "New",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-08T12:20:42.078Z",
+        "_id": "6a4e409a397f03c9437845a4"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-07-08T12:20:46.990Z",
+        "_id": "6a4e409e397f03c9437845a9"
+      },
+      {
+        "status": "Payment Pending",
+        "timestamp": "2026-07-11T11:06:17.813Z",
+        "_id": "6a5223a97f2521fe859f4e11"
+      }
+    ],
+    "createdAt": "2026-07-04T06:11:33.362Z",
+    "updatedAt": "2026-07-31T11:36:37.941Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+919845098207",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "(Bangalore)/Chennai/AP",
+    "email": "",
+    "name": "Amjad Basha chitoor chennai/bang/AP",
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false
+  },
+  {
+    "_id": "6a4b7d80e3c7f82cb08ac5ad",
+    "username": "IG_User_960358167059860",
+    "platformUserId": "960358167059860",
+    "platform": "instagram",
+    "source": "dm",
+    "status": "Following Up",
+    "priority": "hot",
+    "tags": [],
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Following Up",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-10T13:49:38.058Z",
+        "_id": "6a50f8727f2521fe85981138"
+      },
+      {
+        "text": "called",
+        "status": "Contacted",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-06T11:29:10.186Z",
+        "_id": "6a4b9186e3c7f82cb08d4fab"
+      },
+      {
+        "text": "details give on call and WA \npotential",
+        "status": "New",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-06T11:29:05.420Z",
+        "_id": "6a4b9181e3c7f82cb08d4fa7"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-07-06T11:29:10.181Z",
+        "_id": "6a4b9186e3c7f82cb08d4fac"
+      },
+      {
+        "status": "Following Up",
+        "timestamp": "2026-07-10T13:49:38.053Z",
+        "_id": "6a50f8727f2521fe85981139"
+      }
+    ],
+    "createdAt": "2026-07-06T10:03:44.857Z",
+    "updatedAt": "2026-07-31T11:36:45.571Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+918971390005",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Belgaum/Bangalore",
+    "email": "",
+    "name": "Naveed Ahmed Gadagkar Belgaum",
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false
+  },
+  {
+    "_id": "6a4ba4b1e3c7f82cb08ef230",
+    "username": "imrankhan.2406",
+    "platformUserId": "2902688683438330",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Wrong Number",
+    "priority": "hot",
+    "tags": [],
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": "called",
+        "status": "Wrong Number",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-07T07:52:22.842Z",
+        "_id": "6a4cb0360d1ac564fe921b51"
+      },
+      {
+        "text": "wrong number",
+        "status": "New",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-07T07:52:17.296Z",
+        "_id": "6a4cb0310d1ac564fe921b45"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Wrong Number",
+        "timestamp": "2026-07-07T07:52:22.835Z",
+        "_id": "6a4cb0360d1ac564fe921b52"
+      }
+    ],
+    "createdAt": "2026-07-06T12:50:57.071Z",
+    "updatedAt": "2026-07-31T11:36:46.515Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+919028294836",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Hyderabad and Pune",
+    "email": "",
+    "name": "Imran Khan hyd/pune"
+  },
+  {
+    "_id": "6a4c807c0d1ac564fe91a75b",
+    "username": "IG_User_1599322121809683",
+    "platformUserId": "1599322121809683",
+    "platform": "instagram",
+    "source": "dm",
+    "status": "Following Up",
+    "priority": "hot",
+    "tags": [],
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Following Up",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-10T15:59:16.501Z",
+        "_id": "6a5116d47f2521fe85983594"
+      },
+      {
+        "text": "called",
+        "status": "Contacted",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-09T10:17:53.397Z",
+        "_id": "6a4f75517f2521fe85900175"
+      },
+      {
+        "text": "details given",
+        "status": "Not Picking",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-09T10:17:49.894Z",
+        "_id": "6a4f754d7f2521fe8590016d"
+      },
+      {
+        "text": "dint pick",
+        "status": "Not Picking",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-09T09:27:57.399Z",
+        "_id": "6a4f699d7f2521fe858e1014"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Not Picking",
+        "timestamp": "2026-07-09T09:27:57.394Z",
+        "_id": "6a4f699d7f2521fe858e1015"
+      },
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-07-09T10:17:53.393Z",
+        "_id": "6a4f75517f2521fe85900176"
+      },
+      {
+        "status": "Following Up",
+        "timestamp": "2026-07-10T15:59:16.496Z",
+        "_id": "6a5116d47f2521fe85983595"
+      }
+    ],
+    "createdAt": "2026-07-07T04:28:44.473Z",
+    "updatedAt": "2026-07-31T11:36:54.072Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+919900790737",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Davangere/Bangalore",
+    "email": "",
+    "name": "Ahamed Sharif Bang ",
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false
+  },
+  {
+    "_id": "6a4cadb90d1ac564fe91e537",
+    "username": "Abdul",
+    "platform": "instagram",
+    "name": "Abdul Chennai",
+    "email": "",
+    "phone": "+917708106765",
+    "city": "Trichy/Chennai",
+    "source": "manual",
+    "status": "Won",
+    "priority": "hot",
+    "tags": [],
+    "notes": [
+      {
+        "text": "HLC-Business",
+        "status": "Won",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-07T13:20:42.070Z",
+        "_id": "6a4cfd2a1b5621aa525e4d13"
+      },
+      {
+        "text": ".",
+        "status": "On Hold",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-07T13:20:16.814Z",
+        "_id": "6a4cfd101b5621aa525e4d00"
+      },
+      {
+        "text": "old lead converted to HLC-Business 3500",
+        "status": "Won",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-07T07:41:45.117Z",
+        "_id": "6a4cadb90d1ac564fe91e538"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Won",
+        "timestamp": "2026-07-07T07:41:45.117Z",
+        "_id": "6a4cadb90d1ac564fe91e539"
+      },
+      {
+        "status": "On Hold",
+        "timestamp": "2026-07-07T13:20:16.795Z",
+        "_id": "6a4cfd101b5621aa525e4d01"
+      },
+      {
+        "status": "Won",
+        "timestamp": "2026-07-07T13:20:42.063Z",
+        "_id": "6a4cfd2a1b5621aa525e4d14"
+      }
+    ],
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "createdAt": "2026-07-07T07:41:45.121Z",
+    "updatedAt": "2026-07-31T11:36:57.889Z",
+    "__v": 0,
+    "amountPaid": 3500,
+    "amountPaidExclusive": 2966.1,
+    "isCancellation": false,
+    "isDeleted": false,
+    "isDowngrade": false,
+    "isRenewal": false,
+    "isUpgrade": false
+  },
+  {
+    "_id": "6a4cc0340d1ac564fe92ca9f",
+    "username": "absaralam03",
+    "platformUserId": "3647109208798944",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Sent WhatsApp",
+    "priority": "hot",
+    "tags": [],
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": "details given",
+        "status": "Contacted",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-11T07:04:38.421Z",
+        "_id": "6a51eb067f2521fe859b53c2"
+      },
+      {
+        "text": ".",
+        "status": "On Hold",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-11T07:04:26.608Z",
+        "_id": "6a51eafa7f2521fe859b53a4"
+      },
+      {
+        "text": "he said he will call back",
+        "status": "Call Later",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-10T09:17:56.143Z",
+        "_id": "6a50b8c47f2521fe8594d83d"
+      },
+      {
+        "text": "busy",
+        "status": "Not Picking",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-10T09:15:04.598Z",
+        "_id": "6a50b8187f2521fe8594d82f"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Not Picking",
+        "timestamp": "2026-07-10T09:15:04.588Z",
+        "_id": "6a50b8187f2521fe8594d830"
+      },
+      {
+        "status": "Call Later",
+        "timestamp": "2026-07-10T09:17:56.138Z",
+        "_id": "6a50b8c47f2521fe8594d83e"
+      },
+      {
+        "status": "On Hold",
+        "timestamp": "2026-07-11T07:04:26.602Z",
+        "_id": "6a51eafa7f2521fe859b53a5"
+      },
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-07-11T07:04:38.416Z",
+        "_id": "6a51eb067f2521fe859b53c3"
+      }
+    ],
+    "createdAt": "2026-07-07T09:00:36.285Z",
+    "updatedAt": "2026-07-31T11:36:59.023Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+917908881916",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Bangalore/kolkatta",
+    "email": "",
+    "name": "Afsar bang",
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false
+  },
+  {
+    "_id": "6a4cc8204ff7f57dec33e97b",
+    "username": "IG_User_1437433655097014",
+    "platformUserId": "1437433655097014",
+    "platform": "instagram",
+    "source": "dm",
+    "status": "Sent WhatsApp",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": "shared the dets on WA",
+        "status": "Contacted",
+        "createdBy": "6a40f83fd2aa946dd336b2e0",
+        "createdAt": "2026-07-08T10:58:09.300Z",
+        "_id": "6a4e2d41397f03c94376579c"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-07-08T10:58:09.282Z",
+        "_id": "6a4e2d41397f03c94376579d"
+      }
+    ],
+    "createdAt": "2026-07-07T09:34:24.539Z",
+    "updatedAt": "2026-07-31T11:36:59.489Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+918606303066",
+    "assignedTo": "6a40f83fd2aa946dd336b2e0",
+    "city": "Calicut kerala",
+    "email": "",
+    "name": "Aboobacker",
+    "isRenewal": false
+  },
+  {
+    "_id": "6a4d28b41b5621aa525fb681",
+    "username": "IG_User_1780326633136834",
+    "platformUserId": "1780326633136834",
+    "platform": "instagram",
+    "source": "dm",
+    "status": "Future City",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": "he is from gujrath",
+        "status": "Future City",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-11T09:23:06.601Z",
+        "_id": "6a520b7a7f2521fe859e66c2"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Future City",
+        "timestamp": "2026-07-11T09:23:06.596Z",
+        "_id": "6a520b7a7f2521fe859e66c3"
+      }
+    ],
+    "createdAt": "2026-07-07T16:26:28.808Z",
+    "updatedAt": "2026-07-31T11:37:03.302Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "isRenewal": false,
+    "phone": "+917990274737",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "panchmahal (UP)",
+    "email": "",
+    "name": "Sufiyan shaikh panchmahal"
+  },
+  {
+    "_id": "6a4f06ac397f03c9437c20af",
+    "username": "IG_User_1543327537805750",
+    "platformUserId": "1543327537805750",
+    "platform": "instagram",
+    "source": "dm",
+    "status": "Won",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 3500,
+    "amountPaidExclusive": 2966.1,
+    "isRenewal": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": "HLC-Business",
+        "status": "Won",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-09T14:46:39.028Z",
+        "_id": "6a4fb44f7f2521fe8590fe38"
+      },
+      {
+        "text": "called",
+        "status": "Contacted",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-09T12:12:25.085Z",
+        "_id": "6a4f90297f2521fe85909005"
+      },
+      {
+        "text": "details given, walnut business",
+        "status": "New",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-09T12:12:20.691Z",
+        "_id": "6a4f90247f2521fe85909001"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-07-09T12:12:25.077Z",
+        "_id": "6a4f90297f2521fe85909006"
+      },
+      {
+        "status": "Won",
+        "timestamp": "2026-07-09T14:46:39.021Z",
+        "_id": "6a4fb44f7f2521fe8590fe39"
+      }
+    ],
+    "createdAt": "2026-07-09T02:25:48.094Z",
+    "updatedAt": "2026-07-31T11:37:12.595Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+919001297188",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Kashmir/Gurgown ",
+    "email": "",
+    "name": "Samar Abbas chennai",
+    "isCancellation": false,
+    "isDeleted": false,
+    "isDowngrade": false,
+    "isUpgrade": false
+  },
+  {
+    "_id": "6a5245ad7f2521fe859fa321",
+    "username": "fusionx_universe",
+    "platformUserId": "1038775169095069",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Sent WhatsApp",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": "details given, hopeful",
+        "status": "Contacted",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-13T08:43:51.586Z",
+        "_id": "6a54a5477f2521fe85a8246b"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-07-13T08:43:51.564Z",
+        "_id": "6a54a5477f2521fe85a8246c"
+      }
+    ],
+    "createdAt": "2026-07-11T13:31:25.093Z",
+    "updatedAt": "2026-07-31T11:37:20.576Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+919347949128",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Bangalore/Hyderabad",
+    "email": "",
+    "name": "Imran bang"
+  },
+  {
+    "_id": "6a53443e7f2521fe85a339f4",
+    "username": "IG_User_1691464198796772",
+    "platformUserId": "1691464198796772",
+    "platform": "instagram",
+    "source": "dm",
+    "status": "Sent WhatsApp",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": "shared all the dets on WA",
+        "status": "Sent WhatsApp",
+        "createdBy": "6a40f83fd2aa946dd336b2e0",
+        "createdAt": "2026-07-16T11:07:04.431Z",
+        "_id": "6a58bb58683eb94028711b42"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-07-16T11:07:04.410Z",
+        "_id": "6a58bb58683eb94028711b43"
+      }
+    ],
+    "createdAt": "2026-07-12T07:37:34.960Z",
+    "updatedAt": "2026-07-16T11:07:40.106Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+918108901709",
+    "assignedTo": "6a40f83fd2aa946dd336b2e0",
+    "city": "Mumbra (Thane), Maharashtra",
+    "email": "",
+    "name": "SAQUIB ISRAR AHMED SHAIKH"
+  },
+  {
+    "_id": "6a543f327f2521fe85a6ba15",
+    "username": "syed010264",
+    "platformUserId": "1332956429050922",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Sent WhatsApp",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": "sent message",
+        "status": "Contacted",
+        "createdBy": "6a442de8b1bb3e95908be7f2",
+        "createdAt": "2026-07-14T07:41:56.426Z",
+        "_id": "6a55e8447f2521fe85b0cd62"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-07-14T07:41:56.406Z",
+        "_id": "6a55e8447f2521fe85b0cd63"
+      }
+    ],
+    "createdAt": "2026-07-13T01:28:18.959Z",
+    "updatedAt": "2026-07-16T06:12:22.266Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+919894744479",
+    "assignedTo": "6a442de8b1bb3e95908be7f2",
+    "city": "Chennai, Salem",
+    "email": "",
+    "name": "Mohamed Shuaib"
+  },
+  {
+    "_id": "6a5510327f2521fe85ab75bd",
+    "username": "investefycom",
+    "platformUserId": "1986326728677552",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Pitched Membership",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": "Need time",
+        "status": "Pitched Membership",
+        "createdBy": "6a3e855351146d1cf313b87d",
+        "createdAt": "2026-07-31T08:12:50.782Z",
+        "_id": "6a6c59028980ab9aa38b6560"
+      },
+      {
+        "text": "Shared details on WhatsApp",
+        "status": "Pitched Membership",
+        "createdBy": "6a3e855351146d1cf313b87d",
+        "createdAt": "2026-07-18T14:58:33.363Z",
+        "_id": "6a5b9499683eb940287cd313"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-07-18T14:58:33.352Z",
+        "_id": "6a5b9499683eb940287cd314"
+      }
+    ],
+    "createdAt": "2026-07-13T16:20:02.164Z",
+    "updatedAt": "2026-07-31T11:37:27.354Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+919220403330",
+    "assignedTo": "6a3e855351146d1cf313b87d",
+    "city": "Hyd/ Delhi",
+    "email": "",
+    "name": "Bilal khan"
+  },
+  {
+    "_id": "6a566fc92e2b0d7be9dcc38e",
+    "username": "IG_User_921050920356982",
+    "platformUserId": "921050920356982",
+    "platform": "instagram",
+    "source": "dm",
+    "status": "Won",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 3500,
+    "amountPaidExclusive": 2966.1,
+    "isRenewal": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": "HLC-Business",
+        "status": "Won",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-16T16:50:37.722Z",
+        "_id": "6a590bdd683eb940287294f3"
+      },
+      {
+        "text": "details given",
+        "status": "Pitched Membership",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-16T07:14:42.728Z",
+        "_id": "6a5884e2683eb940286fb12f"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-07-16T07:14:42.707Z",
+        "_id": "6a5884e2683eb940286fb130"
+      },
+      {
+        "status": "Won",
+        "timestamp": "2026-07-16T16:50:37.716Z",
+        "_id": "6a590bdd683eb940287294f4"
+      }
+    ],
+    "createdAt": "2026-07-14T17:20:09.704Z",
+    "updatedAt": "2026-07-31T11:37:30.800Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+919840015292",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Hyderabad/Chennai",
+    "email": "",
+    "name": "Salma Rajiha hyd/che",
+    "isCancellation": false,
+    "isDeleted": false,
+    "isDowngrade": false,
+    "isUpgrade": false
+  },
+  {
+    "_id": "6a573b362e2b0d7be9e3df50",
+    "username": "Shanu nandyal/AP/hyd",
+    "platform": "instagram",
+    "name": "Shanu nandyal/AP/hyd",
+    "email": "",
+    "phone": "+918309332289",
+    "city": "Hyderabad/ Nandyal(AP)",
+    "source": "manual",
+    "status": "Not Picking",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Not Picking",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-16T09:59:09.046Z",
+        "_id": "6a58ab6d683eb940287100fa"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "New",
+        "timestamp": "2026-07-15T07:48:06.034Z",
+        "_id": "6a573b362e2b0d7be9e3df51"
+      },
+      {
+        "status": "Not Picking",
+        "timestamp": "2026-07-16T09:59:09.027Z",
+        "_id": "6a58ab6d683eb940287100fb"
+      }
+    ],
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "createdAt": "2026-07-15T07:48:06.038Z",
+    "updatedAt": "2026-07-31T11:37:33.855Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a57bb822e2b0d7be9e6e4aa",
+    "username": "IG_User_1764004988126060",
+    "platformUserId": "1764004988126060",
+    "platform": "instagram",
+    "source": "dm",
+    "status": "Sent WhatsApp",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Sent WhatsApp",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-16T07:46:35.136Z",
+        "_id": "6a588c5b683eb940286fdb8e"
+      },
+      {
+        "text": "details given on WA",
+        "status": "Contacted",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-16T06:29:06.973Z",
+        "_id": "6a587a32bde406c0146afc56"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Contacted",
+        "timestamp": "2026-07-16T06:29:06.953Z",
+        "_id": "6a587a32bde406c0146afc57"
+      },
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-07-16T07:46:35.116Z",
+        "_id": "6a588c5b683eb940286fdb8f"
+      }
+    ],
+    "createdAt": "2026-07-15T16:55:30.695Z",
+    "updatedAt": "2026-07-31T11:37:37.968Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+919900582707",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Haveri/Bang",
+    "email": "",
+    "name": "Hajaratali haveri/bang"
+  },
+  {
+    "_id": "6a5808a12e2b0d7be9e8e623",
+    "username": "er.mohammed_adnan",
+    "platformUserId": "1652930739124166",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Sent WhatsApp",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": "details give  on WA",
+        "status": "Contacted",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-16T05:49:34.271Z",
+        "_id": "6a5870ee2e2b0d7be9ea546c"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-07-16T05:49:34.265Z",
+        "_id": "6a5870ee2e2b0d7be9ea546d"
+      }
+    ],
+    "createdAt": "2026-07-15T22:24:33.539Z",
+    "updatedAt": "2026-07-31T11:37:40.504Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+918421977057",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Aurangabad/Mumbai",
+    "email": "",
+    "name": "Mohammed Adnan aurangabad"
+  },
+  {
+    "_id": "6a5867be2e2b0d7be9ea3d41",
+    "username": "naseem_web_development",
+    "platformUserId": "1558238695899129",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Sent WhatsApp",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": "sent",
+        "status": "Sent WhatsApp",
+        "createdBy": "6a442de8b1bb3e95908be7f2",
+        "createdAt": "2026-07-19T14:27:46.298Z",
+        "_id": "6a5cdee2683eb94028803904"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-07-19T14:27:46.292Z",
+        "_id": "6a5cdee2683eb94028803905"
+      }
+    ],
+    "createdAt": "2026-07-16T05:10:22.655Z",
+    "updatedAt": "2026-07-31T11:37:41.623Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+919966759599",
+    "assignedTo": "6a442de8b1bb3e95908be7f2",
+    "city": "Siddipet, Hyd",
+    "email": "",
+    "name": "Naseem"
+  },
+  {
+    "_id": "6a5a500a683eb9402878dbcf",
+    "username": "shakeelshaikh3163",
+    "platformUserId": "1326966276216987",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Sent WhatsApp",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Sent WhatsApp",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-01T08:26:30.993Z",
+        "_id": "6a6dadb64f4c5bcea1c89da6"
+      },
+      {
+        "text": ".",
+        "status": "On Hold",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-01T08:26:22.709Z",
+        "_id": "6a6dadae4f4c5bcea1c89d93"
+      },
+      {
+        "text": "he asked me to call latter at 6",
+        "status": "Call Later",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-20T08:39:39.087Z",
+        "_id": "6a5ddecb683eb94028837c71"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Call Later",
+        "timestamp": "2026-07-20T08:39:39.082Z",
+        "_id": "6a5ddecb683eb94028837c72"
+      },
+      {
+        "status": "On Hold",
+        "timestamp": "2026-08-01T08:26:22.689Z",
+        "_id": "6a6dadae4f4c5bcea1c89d94"
+      },
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-08-01T08:26:30.987Z",
+        "_id": "6a6dadb64f4c5bcea1c89da7"
+      }
+    ],
+    "createdAt": "2026-07-17T15:53:46.707Z",
+    "updatedAt": "2026-08-01T08:26:30.993Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+919980551200",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Belgaum/Bangalore ",
+    "email": "",
+    "name": "Shakeel Shaikh Belgaum/bang"
+  },
+  {
+    "_id": "6a5b5d23683eb940287b78f9",
+    "username": "mustuuu_09_",
+    "platformUserId": "1527658659372833",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Following Up",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Following Up",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-31T11:49:36.977Z",
+        "_id": "6a6c8bd08980ab9aa38b6a45"
+      },
+      {
+        "text": ".",
+        "status": "Pitched Membership",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-20T07:09:19.713Z",
+        "_id": "6a5dc99f683eb94028817b75"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-07-20T07:09:19.708Z",
+        "_id": "6a5dc99f683eb94028817b76"
+      },
+      {
+        "status": "Following Up",
+        "timestamp": "2026-07-31T11:49:36.972Z",
+        "_id": "6a6c8bd08980ab9aa38b6a46"
+      }
+    ],
+    "createdAt": "2026-07-18T11:01:55.152Z",
+    "updatedAt": "2026-07-31T11:49:36.977Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+919666922363",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Nanded/Mumbai/MH",
+    "email": "",
+    "name": "Mohammad Gulam Mustafa nanded"
+  },
+  {
+    "_id": "6a5cc59a683eb94028802608",
+    "username": "half.blood_prince._",
+    "platformUserId": "2014630565837705",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Pitched Membership",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": "will register for event",
+        "status": "Pitched Membership",
+        "createdBy": "6a40f83fd2aa946dd336b2e0",
+        "createdAt": "2026-08-26T12:19:27.339Z",
+        "_id": "6a8ed9cf18239c1214673296"
+      },
+      {
+        "text": "will call back",
+        "status": "Call Later",
+        "createdBy": "6a40f83fd2aa946dd336b2e0",
+        "createdAt": "2026-08-03T13:27:09.098Z",
+        "_id": "6a70972d4f4c5bcea1c8b7b4"
+      },
+      {
+        "text": "Will join after attending event",
+        "status": "Future City",
+        "createdBy": "6a40f83fd2aa946dd336b2e0",
+        "createdAt": "2026-07-24T11:37:40.539Z",
+        "_id": "6a634e8494482b58f463584d"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Future City",
+        "timestamp": "2026-07-24T11:37:40.520Z",
+        "_id": "6a634e8494482b58f463584e"
+      },
+      {
+        "status": "Call Later",
+        "timestamp": "2026-08-03T13:27:09.092Z",
+        "_id": "6a70972d4f4c5bcea1c8b7b5"
+      },
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-08-26T12:19:27.316Z",
+        "_id": "6a8ed9cf18239c1214673297"
+      }
+    ],
+    "createdAt": "2026-07-19T12:39:54.927Z",
+    "updatedAt": "2026-08-26T12:19:27.339Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+919167798682",
+    "assignedTo": "6a40f83fd2aa946dd336b2e0",
+    "city": "Hassan Abbas",
+    "email": "",
+    "name": ""
+  },
+  {
+    "_id": "6a5ccf41683eb94028802640",
+    "username": "IG_User_1350921640488556",
+    "platformUserId": "1350921640488556",
+    "platform": "instagram",
+    "source": "dm",
+    "status": "Following Up",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Following Up",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-01T10:58:16.096Z",
+        "_id": "6a6dd1484f4c5bcea1c8a115"
+      },
+      {
+        "text": "potential / interested/ IT",
+        "status": "Pitched Membership",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-20T11:12:06.034Z",
+        "_id": "6a5e0286683eb940288afffa"
+      },
+      {
+        "text": ".",
+        "status": "Pitched Membership",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-20T10:56:41.374Z",
+        "_id": "6a5dfee9683eb940288af53a"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-07-20T10:56:41.368Z",
+        "_id": "6a5dfee9683eb940288af53b"
+      },
+      {
+        "status": "Following Up",
+        "timestamp": "2026-08-01T10:58:16.076Z",
+        "_id": "6a6dd1484f4c5bcea1c8a116"
+      }
+    ],
+    "createdAt": "2026-07-19T13:21:05.689Z",
+    "updatedAt": "2026-08-01T10:58:16.096Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+918884841333",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Hubbali/Bangalore",
+    "email": "",
+    "name": "Mohammad Isaq hubbali/bang"
+  },
+  {
+    "_id": "6a5cdc3a683eb94028803250",
+    "username": "coachsayeed.in",
+    "platformUserId": "1555989779567802",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Sent WhatsApp",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": "Lead generation, 30+ years acceptance.\nWorking professionals.\nCounseling etc.,",
+        "status": "Sent WhatsApp",
+        "createdBy": "6a442dc0b1bb3e95908be7f1",
+        "createdAt": "2026-07-20T11:07:57.377Z",
+        "_id": "6a5e018d683eb940288afae4"
+      },
+      {
+        "text": "Lead generation,",
+        "status": "New",
+        "createdBy": "6a442dc0b1bb3e95908be7f1",
+        "createdAt": "2026-07-20T10:33:10.895Z",
+        "_id": "6a5df966683eb940288af0d9"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-07-20T11:07:57.372Z",
+        "_id": "6a5e018d683eb940288afae5"
+      }
+    ],
+    "createdAt": "2026-07-19T14:16:26.290Z",
+    "updatedAt": "2026-07-31T11:38:02.991Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+919000092981",
+    "assignedTo": "6a442dc0b1bb3e95908be7f1",
+    "city": "Vishakpatnam AP",
+    "email": "",
+    "name": "Sayeed"
+  },
+  {
+    "_id": "6a5daab4683eb9402881645d",
+    "username": "bhabhijis_tasty_treat",
+    "platformUserId": "2857210151281358",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Following Up",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Following Up",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-01T17:50:21.572Z",
+        "_id": "6a6e31dd4f4c5bcea1c8aa66"
+      },
+      {
+        "text": ".",
+        "status": "Spoken",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-20T12:24:52.669Z",
+        "_id": "6a5e1394683eb940288c05f4"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Spoken",
+        "timestamp": "2026-07-20T12:24:52.648Z",
+        "_id": "6a5e1394683eb940288c05f5"
+      },
+      {
+        "status": "Following Up",
+        "timestamp": "2026-08-01T17:50:21.567Z",
+        "_id": "6a6e31dd4f4c5bcea1c8aa67"
+      }
+    ],
+    "createdAt": "2026-07-20T04:57:24.396Z",
+    "updatedAt": "2026-08-01T17:50:21.572Z",
+    "__v": 0,
+    "activePathId": null,
+    "phone": "+919731915882",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Hubli/Bangalore",
+    "email": "",
+    "name": "Shaikh Fasiuddin hubli/bang "
+  },
+  {
+    "_id": "6a5de1a6683eb940288485cd",
+    "username": "IG_User_1827709438598548",
+    "platformUserId": "1827709438598548",
+    "platform": "instagram",
+    "source": "dm",
+    "status": "Pitched Membership",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": "He is into electric shuttle pan india business asking hundred questions",
+        "status": "Pitched Membership",
+        "createdBy": "6a3e855351146d1cf313b87d",
+        "createdAt": "2026-07-26T11:35:35.393Z",
+        "_id": "6a65f107dc6071a1621a323a"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-07-26T11:35:35.387Z",
+        "_id": "6a65f107dc6071a1621a323b"
+      }
+    ],
+    "createdAt": "2026-07-20T08:51:50.435Z",
+    "updatedAt": "2026-07-31T11:38:10.695Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+919041171817",
+    "assignedTo": "6a3e855351146d1cf313b87d",
+    "city": "All india",
+    "email": "",
+    "name": "Mohammad "
+  },
+  {
+    "_id": "6a5e1dac683eb940288c1aeb",
+    "username": "IG_User_1797500645035455",
+    "platformUserId": "1797500645035455",
+    "platform": "instagram",
+    "source": "dm",
+    "status": "Sent WhatsApp",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": "intro sent",
+        "status": "Sent WhatsApp",
+        "createdBy": "6a442dc0b1bb3e95908be7f1",
+        "createdAt": "2026-07-23T10:24:18.026Z",
+        "_id": "6a61ebd2e3865111720e8790"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-07-23T10:24:18.021Z",
+        "_id": "6a61ebd2e3865111720e8791"
+      }
+    ],
+    "createdAt": "2026-07-20T13:07:56.551Z",
+    "updatedAt": "2026-07-31T11:38:12.844Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+919786972831",
+    "assignedTo": "6a442dc0b1bb3e95908be7f1",
+    "city": "Batlagundu, Dindigul",
+    "email": "",
+    "name": "Shameer"
+  },
+  {
+    "_id": "6a5ef780683eb940288e3240",
+    "username": "mominanazli_nazli",
+    "platformUserId": "1707276997248007",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Wrong Number",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 1,
+    "notes": [
+      {
+        "text": "..",
+        "status": "Wrong Number",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-24T09:43:29.401Z",
+        "_id": "6a6333c194482b58f4635510"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Wrong Number",
+        "timestamp": "2026-07-24T09:43:29.382Z",
+        "_id": "6a6333c194482b58f4635511"
+      }
+    ],
+    "createdAt": "2026-07-21T04:37:20.365Z",
+    "updatedAt": "2026-07-31T11:38:16.555Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+919980801501",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Tumkur/Bang",
+    "email": "",
+    "name": "Momina tumkur/bang",
+    "isCancellation": false,
+    "isDowngrade": false,
+    "isUpgrade": false
+  },
+  {
+    "_id": "6a607fbf683eb940289762ab",
+    "username": "rufaidhihsan",
+    "platformUserId": "1003396995941977",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Following Up",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Following Up",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-01T17:36:48.764Z",
+        "_id": "6a6e2eb04f4c5bcea1c8a97a"
+      },
+      {
+        "text": ".",
+        "status": "On Hold",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-01T17:36:39.457Z",
+        "_id": "6a6e2ea74f4c5bcea1c8a957"
+      },
+      {
+        "text": "she is looking for a job",
+        "status": "Lost",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-01T17:35:06.919Z",
+        "_id": "6a6e2e4a4f4c5bcea1c8a92a"
+      },
+      {
+        "text": "sent details on WA",
+        "status": "Spoken",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-25T10:35:12.129Z",
+        "_id": "6a64916094482b58f463640f"
+      },
+      {
+        "text": "he is event asked to call latter at 8 pm",
+        "status": "Call Later",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-25T10:09:54.480Z",
+        "_id": "6a648b7294482b58f46363d7"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Call Later",
+        "timestamp": "2026-07-25T10:09:54.460Z",
+        "_id": "6a648b7294482b58f46363d8"
+      },
+      {
+        "status": "Spoken",
+        "timestamp": "2026-07-25T10:35:12.110Z",
+        "_id": "6a64916094482b58f4636410"
+      },
+      {
+        "status": "Lost",
+        "timestamp": "2026-08-01T17:35:06.897Z",
+        "_id": "6a6e2e4a4f4c5bcea1c8a92b"
+      },
+      {
+        "status": "On Hold",
+        "timestamp": "2026-08-01T17:36:39.451Z",
+        "_id": "6a6e2ea74f4c5bcea1c8a958"
+      },
+      {
+        "status": "Following Up",
+        "timestamp": "2026-08-01T17:36:48.758Z",
+        "_id": "6a6e2eb04f4c5bcea1c8a97b"
+      }
+    ],
+    "createdAt": "2026-07-22T08:30:55.350Z",
+    "updatedAt": "2026-08-01T17:37:12.560Z",
+    "__v": 0,
+    "activePathId": null,
+    "phone": "+917907154594",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Kerala/Bangalore",
+    "email": "",
+    "name": "Rufaidh Ihsan Bang/kerala"
+  },
+  {
+    "_id": "6a60e4e0e3865111720e7f9f",
+    "username": "javedhakim4",
+    "platformUserId": "1788477625489049",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Following Up",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Following Up",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-01T11:15:18.773Z",
+        "_id": "6a6dd5464f4c5bcea1c8a386"
+      },
+      {
+        "text": ".",
+        "status": "Pitched Membership",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-25T13:19:26.183Z",
+        "_id": "6a64b7de94482b58f46365b1"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-07-25T13:19:26.176Z",
+        "_id": "6a64b7de94482b58f46365b2"
+      },
+      {
+        "status": "Following Up",
+        "timestamp": "2026-08-01T11:15:18.768Z",
+        "_id": "6a6dd5464f4c5bcea1c8a387"
+      }
+    ],
+    "createdAt": "2026-07-22T15:42:24.695Z",
+    "updatedAt": "2026-08-01T11:15:18.773Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+919606531170",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Haveri/Bangalore",
+    "email": "",
+    "name": "Javed Hakim haveri/bang"
+  },
+  {
+    "_id": "6a61bae0e3865111720e84ef",
+    "username": "Md.Noman bang/chenn",
+    "platform": "instagram",
+    "name": "Md.neoman Chennai ",
+    "email": "",
+    "phone": "+919884271191",
+    "city": "Chennai/Bangalore",
+    "source": "manual",
+    "status": "Won",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 9000,
+    "amountPaidExclusive": 7627.12,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "notes": [
+      {
+        "text": "HLC- Founder's Club",
+        "status": "Won",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-10T09:09:18.253Z",
+        "_id": "6a79953ec5bf5c995d775b6e"
+      },
+      {
+        "text": ".",
+        "status": "Following Up",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-01T11:22:10.063Z",
+        "_id": "6a6dd6e24f4c5bcea1c8a3ed"
+      },
+      {
+        "text": "Saloon",
+        "status": "Pitched Membership",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-23T14:49:07.342Z",
+        "_id": "6a6229e3e3865111720e8b23"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "New",
+        "timestamp": "2026-07-23T06:55:28.589Z",
+        "_id": "6a61bae0e3865111720e84f0"
+      },
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-07-23T14:49:07.320Z",
+        "_id": "6a6229e3e3865111720e8b24"
+      },
+      {
+        "status": "Following Up",
+        "timestamp": "2026-08-01T11:22:10.057Z",
+        "_id": "6a6dd6e24f4c5bcea1c8a3ee"
+      },
+      {
+        "status": "Won",
+        "timestamp": "2026-08-10T09:09:18.247Z",
+        "_id": "6a79953ec5bf5c995d775b6f"
+      }
+    ],
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "createdAt": "2026-07-23T06:55:28.591Z",
+    "updatedAt": "2026-08-10T09:09:18.253Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a61c677e3865111720e84fe",
+    "username": "rabee_ruk",
+    "platformUserId": "2275784666289716",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Pitched Membership",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": "Will join in September",
+        "status": "Pitched Membership",
+        "createdBy": "6a3e855351146d1cf313b87d",
+        "createdAt": "2026-07-26T12:24:32.985Z",
+        "_id": "6a65fc80dc6071a1621a32b3"
+      },
+      {
+        "text": "Helps sourcing impot export from China",
+        "status": "Pitched Membership",
+        "createdBy": "6a3e855351146d1cf313b87d",
+        "createdAt": "2026-07-26T12:24:23.392Z",
+        "_id": "6a65fc77dc6071a1621a32a1"
+      },
+      {
+        "text": "Sent msg for time",
+        "status": "Sent WhatsApp",
+        "createdBy": "6a3e855351146d1cf313b87d",
+        "createdAt": "2026-07-26T11:47:25.057Z",
+        "_id": "6a65f3cddc6071a1621a3261"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-07-26T11:47:25.035Z",
+        "_id": "6a65f3cddc6071a1621a3262"
+      },
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-07-26T12:24:23.353Z",
+        "_id": "6a65fc77dc6071a1621a32a2"
+      }
+    ],
+    "createdAt": "2026-07-23T07:44:55.214Z",
+    "updatedAt": "2026-07-26T12:24:32.985Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+919986839739",
+    "assignedTo": "6a3e855351146d1cf313b87d",
+    "city": "China / Bangalore ",
+    "email": "",
+    "name": "Rabee"
+  },
+  {
+    "_id": "6a6328ad94482b58f4635451",
+    "username": "nahfastore",
+    "platformUserId": "2044781223064689",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Following Up",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Following Up",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-01T10:42:12.281Z",
+        "_id": "6a6dcd844f4c5bcea1c8a078"
+      },
+      {
+        "text": ".",
+        "status": "Pitched Membership",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-25T09:49:48.964Z",
+        "_id": "6a6486bc94482b58f46363b6"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-07-25T09:49:48.942Z",
+        "_id": "6a6486bc94482b58f46363b7"
+      },
+      {
+        "status": "Following Up",
+        "timestamp": "2026-08-01T10:42:12.261Z",
+        "_id": "6a6dcd844f4c5bcea1c8a079"
+      }
+    ],
+    "createdAt": "2026-07-24T08:56:13.931Z",
+    "updatedAt": "2026-08-01T10:42:12.281Z",
+    "__v": 0,
+    "activePathId": null,
+    "phone": "+919113010971",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Pavagada/Bangalore",
+    "email": "",
+    "name": "Fardeen Ahmed Nafah Store "
+  },
+  {
+    "_id": "6a634a5694482b58f463574e",
+    "username": "Firdouse banu Siddiqui",
+    "platform": "instagram",
+    "name": "Firdouse banu Siddiqui mumb",
+    "email": "",
+    "phone": "+917829681811",
+    "city": "Nagpur/Mumbai",
+    "source": "manual",
+    "status": "Payment Pending",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Payment Pending",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-25T10:42:43.859Z",
+        "_id": "6a8d71a318239c12146638aa"
+      },
+      {
+        "text": ".",
+        "status": "On Hold",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-30T11:10:48.073Z",
+        "_id": "6a6b31388980ab9aa38b5ede"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "New",
+        "timestamp": "2026-07-24T11:19:50.005Z",
+        "_id": "6a634a5694482b58f463574f"
+      },
+      {
+        "status": "On Hold",
+        "timestamp": "2026-07-30T11:10:48.052Z",
+        "_id": "6a6b31388980ab9aa38b5edf"
+      },
+      {
+        "status": "Payment Pending",
+        "timestamp": "2026-08-25T10:42:43.852Z",
+        "_id": "6a8d71a318239c12146638ab"
+      }
+    ],
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "createdAt": "2026-07-24T11:19:50.009Z",
+    "updatedAt": "2026-08-25T10:42:43.859Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a6803448980ab9aa38b4ef8",
+    "username": "IG_User_875548578326228",
+    "platformUserId": "875548578326228",
+    "platform": "instagram",
+    "source": "dm",
+    "status": "Sent WhatsApp",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Sent WhatsApp",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-31T11:06:07.627Z",
+        "_id": "6a6c819f8980ab9aa38b687d"
+      },
+      {
+        "text": ".",
+        "status": "Not Picking",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-31T11:05:57.703Z",
+        "_id": "6a6c81958980ab9aa38b6872"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Not Picking",
+        "timestamp": "2026-07-31T11:05:57.684Z",
+        "_id": "6a6c81958980ab9aa38b6873"
+      },
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-07-31T11:06:07.623Z",
+        "_id": "6a6c819f8980ab9aa38b687e"
+      }
+    ],
+    "createdAt": "2026-07-28T01:17:56.116Z",
+    "updatedAt": "2026-07-31T11:38:46.444Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "phone": "+918919277120",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Ananthapur/Ap/ Hyderabad",
+    "email": "",
+    "name": " Saleem basha Ananthapur "
+  },
+  {
+    "_id": "6a681d9a8980ab9aa38b4f0f",
+    "username": "altaf_rashadi",
+    "platformUserId": "1044574078075780",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Sent WhatsApp",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Sent WhatsApp",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-01T10:05:14.841Z",
+        "_id": "6a6dc4da4f4c5bcea1c89f4e"
+      },
+      {
+        "text": ".",
+        "status": "On Hold",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-01T10:05:04.975Z",
+        "_id": "6a6dc4d04f4c5bcea1c89f33"
+      },
+      {
+        "text": ".",
+        "status": "Call Later",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-01T07:15:43.564Z",
+        "_id": "6a6d9d1f4f4c5bcea1c89c2a"
+      },
+      {
+        "text": ".",
+        "status": "Not Picking",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-30T09:45:51.662Z",
+        "_id": "6a6b1d4f8980ab9aa38b5db1"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Not Picking",
+        "timestamp": "2026-07-30T09:45:51.643Z",
+        "_id": "6a6b1d4f8980ab9aa38b5db2"
+      },
+      {
+        "status": "Call Later",
+        "timestamp": "2026-08-01T07:15:43.532Z",
+        "_id": "6a6d9d1f4f4c5bcea1c89c2b"
+      },
+      {
+        "status": "On Hold",
+        "timestamp": "2026-08-01T10:05:04.954Z",
+        "_id": "6a6dc4d04f4c5bcea1c89f34"
+      },
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-08-01T10:05:14.836Z",
+        "_id": "6a6dc4da4f4c5bcea1c89f4f"
+      }
+    ],
+    "createdAt": "2026-07-28T03:10:18.573Z",
+    "updatedAt": "2026-08-01T10:05:14.841Z",
+    "__v": 0,
+    "activePathId": null,
+    "phone": "+917760767973",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Hiriyur/Bangalore ",
+    "email": "",
+    "name": "Altaf Rashadi hiriyur/bang "
+  },
+  {
+    "_id": "6a6aec8a8980ab9aa38b59b2",
+    "username": "Syed Nawaz",
+    "platform": "instagram",
+    "name": "Syed nawaz hariyar",
+    "email": "",
+    "phone": "+917349109032",
+    "city": "Hariyar/Bangalore",
+    "source": "manual",
+    "status": "Spoken",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Spoken",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-01T07:45:14.106Z",
+        "_id": "6a6da40a4f4c5bcea1c89cd4"
+      },
+      {
+        "text": ".",
+        "status": "Call Later",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-07-30T09:00:50.740Z",
+        "_id": "6a6b12c28980ab9aa38b5d23"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "New",
+        "timestamp": "2026-07-30T06:17:46.133Z",
+        "_id": "6a6aec8a8980ab9aa38b59b3"
+      },
+      {
+        "status": "Call Later",
+        "timestamp": "2026-07-30T09:00:50.734Z",
+        "_id": "6a6b12c28980ab9aa38b5d24"
+      },
+      {
+        "status": "Spoken",
+        "timestamp": "2026-08-01T07:45:14.100Z",
+        "_id": "6a6da40a4f4c5bcea1c89cd5"
+      }
+    ],
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "createdAt": "2026-07-30T06:17:46.136Z",
+    "updatedAt": "2026-08-01T07:45:14.109Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a6dc53a4f4c5bcea1c89f72",
+    "username": "basha.mooley",
+    "platformUserId": "26690916650585367",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Following Up",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": "Need one week to decide the membership he wants to take",
+        "status": "Following Up",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-26T10:26:10.242Z",
+        "_id": "6a8ebf4218239c1214670aba"
+      },
+      {
+        "text": "Wanted to know about the community \nAlhumdulilah interested in business membership",
+        "status": "Pitched Membership",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-23T10:11:31.841Z",
+        "_id": "6a8ac7538adc651fa4d1c466"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-08-23T10:11:31.820Z",
+        "_id": "6a8ac7538adc651fa4d1c467"
+      },
+      {
+        "status": "Following Up",
+        "timestamp": "2026-08-26T10:26:10.236Z",
+        "_id": "6a8ebf4218239c1214670abb"
+      }
+    ],
+    "createdAt": "2026-08-01T10:06:50.900Z",
+    "updatedAt": "2026-08-26T10:26:10.242Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "assignedTo": "6a7736208040763dd30315b8",
+    "city": "Vaniyambadi, Tamil Nadu",
+    "email": "",
+    "name": "Ahmed Abdullah ",
+    "phone": "+919443268916"
+  },
+  {
+    "_id": "6a6f865c4f4c5bcea1c8b157",
+    "username": "pateltameem_47",
+    "platformUserId": "1041047285452918",
+    "platform": "instagram",
+    "source": "dm",
+    "status": "Following Up",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Following Up",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-16T13:14:32.013Z",
+        "_id": "6a81b7b8b6c6ab5e20895a37"
+      },
+      {
+        "text": "school in hubli",
+        "status": "Pitched Membership",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-06T11:52:53.920Z",
+        "_id": "6a747595db1051ea50cad8f6"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-08-06T11:52:53.914Z",
+        "_id": "6a747595db1051ea50cad8f7"
+      },
+      {
+        "status": "Following Up",
+        "timestamp": "2026-08-16T13:14:31.992Z",
+        "_id": "6a81b7b8b6c6ab5e20895a38"
+      }
+    ],
+    "createdAt": "2026-08-02T18:03:08.588Z",
+    "updatedAt": "2026-08-16T13:14:32.013Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Hubli/ Bang",
+    "email": "",
+    "name": "Tameem patel hubli/bang",
+    "phone": "+919620374958"
+  },
+  {
+    "_id": "6a71d7144f4c5bcea1c8bdb1",
+    "username": "Syeda Anjum",
+    "platform": "instagram",
+    "name": "Syeda Anjum bang/Dubai",
+    "email": "",
+    "phone": "+971528078651",
+    "city": "Bangalore / Dubai",
+    "source": "manual",
+    "status": "Pitched Membership",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Pitched Membership",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-05T12:09:08.188Z",
+        "_id": "6a7327e43fe9e4737063a718"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "New",
+        "timestamp": "2026-08-04T12:12:04.644Z",
+        "_id": "6a71d7144f4c5bcea1c8bdb2"
+      },
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-08-05T12:09:08.182Z",
+        "_id": "6a7327e43fe9e4737063a719"
+      }
+    ],
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "createdAt": "2026-08-04T12:12:04.647Z",
+    "updatedAt": "2026-08-05T12:09:08.188Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a72ea4b67df77a201ff266d",
+    "platform": "instagram",
+    "name": "Syed Shahed Hashmi",
+    "email": "shahed.hashmi2@gmail.com",
+    "phone": "+918088831462",
+    "city": "Banglore Karnataka",
+    "source": "manual",
+    "status": "Won",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 8999,
+    "amountPaidExclusive": 7626.27,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "notes": [
+      {
+        "text": "Founder’s Club membership Alhumdulilah \nIn fintech (islamicly) business",
+        "status": "Won",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-18T11:22:03.954Z",
+        "_id": "6a84405b41cd4645a2367979"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "New",
+        "timestamp": "2026-08-05T07:46:19.139Z",
+        "_id": "6a72ea4b67df77a201ff266e"
+      },
+      {
+        "status": "Won",
+        "timestamp": "2026-08-18T11:22:03.923Z",
+        "_id": "6a84405b41cd4645a236797a"
+      }
+    ],
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": true,
+    "assignedTo": "6a7736208040763dd30315b8",
+    "createdAt": "2026-08-05T07:46:19.142Z",
+    "updatedAt": "2026-08-18T17:15:05.092Z",
+    "__v": 0,
+    "username": "kcictickexams"
+  },
+  {
+    "_id": "6a76189c8040763dd302c6d6",
+    "username": "imran.s.t",
+    "platformUserId": "2152942928616344",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Pitched Membership",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Pitched Membership",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-10T11:50:37.082Z",
+        "_id": "6a79bb0dc5bf5c995d7763aa"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-08-10T11:50:37.060Z",
+        "_id": "6a79bb0dc5bf5c995d7763ab"
+      }
+    ],
+    "createdAt": "2026-08-07T17:40:44.172Z",
+    "updatedAt": "2026-08-10T11:51:17.412Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Kurnool/Ap/ hyd ",
+    "email": "",
+    "name": "Imran kurnoor/Hyd",
+    "phone": "+919885483829"
+  },
+  {
+    "_id": "6a7a8c02c5bf5c995d776e89",
+    "username": "Nazar Hussain coimbatore ",
+    "platform": "instagram",
+    "name": "Nazar Hussain",
+    "email": "",
+    "phone": "+919092534587",
+    "city": "Coimbatore/Chennai",
+    "source": "manual",
+    "status": "Pitched Membership",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "notes": [
+      {
+        "text": "Cctv business coimbatore",
+        "status": "Pitched Membership",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-13T08:55:55.750Z",
+        "_id": "6a7d869b1dfbc2a789969ef6"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "New",
+        "timestamp": "2026-08-11T02:42:10.950Z",
+        "_id": "6a7a8c02c5bf5c995d776e8a"
+      },
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-08-13T08:55:55.745Z",
+        "_id": "6a7d869b1dfbc2a789969ef7"
+      }
+    ],
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "createdAt": "2026-08-11T02:42:10.953Z",
+    "updatedAt": "2026-08-13T08:55:55.751Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a7c7e4ac5bf5c995d778edf",
+    "platform": "Hlc hyd",
+    "name": "Imran Abbas",
+    "email": "",
+    "phone": "+919825040056",
+    "city": "Hyderabad/ Ahmedabad",
+    "source": "manual",
+    "status": "New",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "notes": [],
+    "statusHistory": [
+      {
+        "status": "New",
+        "timestamp": "2026-08-12T14:08:10.428Z",
+        "_id": "6a7c7e4ac5bf5c995d778ee0"
+      }
+    ],
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "assignedTo": "6a3e855351146d1cf313b87d",
+    "createdAt": "2026-08-12T14:08:10.431Z",
+    "updatedAt": "2026-08-12T14:08:10.431Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a7c80f9c5bf5c995d778f1a",
+    "username": "a.talha_05",
+    "platformUserId": "1352879829883340",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "On Hold",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": "Not interested now focusing on studies",
+        "status": "On Hold",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-25T09:56:37.692Z",
+        "_id": "6a8d66d518239c1214663170"
+      },
+      {
+        "text": "Sent HLC Student poster to his WhatsApp number",
+        "status": "Following Up",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-17T19:04:41.131Z",
+        "_id": "6a835b49d54627b410e6661a"
+      },
+      {
+        "text": "-just wanted to enquiry about the community \n-final year engineering student \n- father is in furniture manufacturing business",
+        "status": "Pitched Membership",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-12T16:19:08.810Z",
+        "_id": "6a7c9cfc1dfbc2a7899693cb"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-08-12T16:19:08.803Z",
+        "_id": "6a7c9cfc1dfbc2a7899693cc"
+      },
+      {
+        "status": "Following Up",
+        "timestamp": "2026-08-17T19:04:41.109Z",
+        "_id": "6a835b49d54627b410e6661b"
+      },
+      {
+        "status": "On Hold",
+        "timestamp": "2026-08-25T09:56:37.685Z",
+        "_id": "6a8d66d518239c1214663171"
+      }
+    ],
+    "createdAt": "2026-08-12T14:19:37.189Z",
+    "updatedAt": "2026-08-25T09:56:37.692Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "assignedTo": "6a7736208040763dd30315b8",
+    "city": "Tumkur Karnataka ",
+    "email": "",
+    "name": "Talha",
+    "phone": "+919353194947"
+  },
+  {
+    "_id": "6a7cbb631dfbc2a789969862",
+    "username": "siddique_abubaqr",
+    "platformUserId": "1296397639071331",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Not Picking",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Not Picking",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-23T11:38:41.140Z",
+        "_id": "6a8adbc18adc651fa4d1cab1"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Not Picking",
+        "timestamp": "2026-08-23T11:38:41.134Z",
+        "_id": "6a8adbc18adc651fa4d1cab2"
+      }
+    ],
+    "createdAt": "2026-08-12T18:28:51.884Z",
+    "updatedAt": "2026-08-23T11:38:41.140Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Virudhunagar/Chennai",
+    "email": "",
+    "name": "Siddique abubaqr vriddhunagar/chennai ",
+    "phone": "+919566646656"
+  },
+  {
+    "_id": "6a7d10b11dfbc2a789969a46",
+    "username": "mohdriyazriyu",
+    "platformUserId": "3551747201657836",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Call Later",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": "After 1 hour",
+        "status": "Call Later",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-23T11:31:16.684Z",
+        "_id": "6a8ada048adc651fa4d1caa4"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Call Later",
+        "timestamp": "2026-08-23T11:31:16.679Z",
+        "_id": "6a8ada048adc651fa4d1caa5"
+      }
+    ],
+    "createdAt": "2026-08-13T00:32:49.466Z",
+    "updatedAt": "2026-08-23T11:31:16.684Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Gulbarga/bangalore ",
+    "email": "",
+    "name": "Md. Riyaz gulbarga/Bang",
+    "phone": "+919980940341"
+  },
+  {
+    "_id": "6a7d16471dfbc2a789969a72",
+    "username": "littlestoryland1",
+    "platformUserId": "2131334611060973",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Pitched Membership",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 1,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Pitched Membership",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-17T15:08:41.314Z",
+        "_id": "6a8323f9d54627b410e63c74"
+      },
+      {
+        "text": ".",
+        "status": "Not Picking",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-17T12:34:34.424Z",
+        "_id": "6a82ffda26560a56b39914d9"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Not Picking",
+        "timestamp": "2026-08-17T12:34:34.420Z",
+        "_id": "6a82ffda26560a56b39914da"
+      },
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-08-17T15:08:41.288Z",
+        "_id": "6a8323f9d54627b410e63c75"
+      }
+    ],
+    "createdAt": "2026-08-13T00:56:39.950Z",
+    "updatedAt": "2026-08-17T15:24:43.992Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Goa/Mumbai ",
+    "email": "",
+    "name": "Firdouse goa/mumbai ",
+    "phone": "+917030551612"
+  },
+  {
+    "_id": "6a7d54641dfbc2a789969ca3",
+    "username": "mobinc5555",
+    "platformUserId": "1420997743250602",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Pitched Membership",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Pitched Membership",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-18T11:54:24.171Z",
+        "_id": "6a8447f041cd4645a236832d"
+      },
+      {
+        "text": "call at 4:30 pm",
+        "status": "Call Later",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-18T10:17:57.009Z",
+        "_id": "6a843155d54627b410e6b530"
+      },
+      {
+        "text": ".",
+        "status": "Not Picking",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-18T10:16:26.642Z",
+        "_id": "6a8430fad54627b410e6b525"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Not Picking",
+        "timestamp": "2026-08-18T10:16:26.636Z",
+        "_id": "6a8430fad54627b410e6b526"
+      },
+      {
+        "status": "Call Later",
+        "timestamp": "2026-08-18T10:17:56.985Z",
+        "_id": "6a843155d54627b410e6b531"
+      },
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-08-18T11:54:24.151Z",
+        "_id": "6a8447f041cd4645a236832e"
+      }
+    ],
+    "createdAt": "2026-08-13T05:21:40.118Z",
+    "updatedAt": "2026-08-18T11:54:24.172Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Dharwad/Bangalore",
+    "email": "",
+    "name": "Mobin Dharwad/bang",
+    "phone": "+919986745555"
+  },
+  {
+    "_id": "6a7d60741dfbc2a789969d60",
+    "username": "nehal_salahuddin_khatib",
+    "platformUserId": "1619602359784202",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Call Later",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Call Later",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-21T13:43:07.745Z",
+        "_id": "6a8855eb41cd4645a2382119"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Call Later",
+        "timestamp": "2026-08-21T13:43:07.725Z",
+        "_id": "6a8855eb41cd4645a238211a"
+      }
+    ],
+    "createdAt": "2026-08-13T06:13:08.316Z",
+    "updatedAt": "2026-08-21T13:43:07.745Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Amaravati/Mumbai ",
+    "email": "",
+    "name": "Nehal salauddin khatib mumbai/amaravati ",
+    "phone": "+918806156076"
+  },
+  {
+    "_id": "6a7d6dd61dfbc2a789969ddc",
+    "username": "fpwrites54",
+    "platformUserId": "934302392315900",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Following Up",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": "Will all back \nHaven’t decided yet",
+        "status": "Following Up",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-26T10:54:21.480Z",
+        "_id": "6a8ec5dd18239c1214671809"
+      },
+      {
+        "text": "-Alpha as construction business (family business)\n- interested to know more about the community \n-will get back shortly",
+        "status": "Pitched Membership",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-14T11:10:34.903Z",
+        "_id": "6a7ef7aa1dfbc2a78996b0bc"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-08-14T11:10:34.879Z",
+        "_id": "6a7ef7aa1dfbc2a78996b0bd"
+      },
+      {
+        "status": "Following Up",
+        "timestamp": "2026-08-26T10:54:21.475Z",
+        "_id": "6a8ec5dd18239c121467180a"
+      }
+    ],
+    "createdAt": "2026-08-13T07:10:14.991Z",
+    "updatedAt": "2026-08-26T10:54:21.481Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "assignedTo": "6a7736208040763dd30315b8",
+    "city": "Belagum Karnataka ",
+    "email": "",
+    "name": "",
+    "phone": "+918892519195"
+  },
+  {
+    "_id": "6a7de5f71dfbc2a78996a9a0",
+    "username": "smartaariz99",
+    "platformUserId": "1026626926848967",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Pitched Membership",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Pitched Membership",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-22T11:12:21.721Z",
+        "_id": "6a8984158adc651fa4d13701"
+      },
+      {
+        "text": "has a restaurant in jalna/MH, loig for real estate business",
+        "status": "New",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-22T11:11:02.498Z",
+        "_id": "6a8983c68adc651fa4d136fb"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-08-22T11:12:21.713Z",
+        "_id": "6a8984158adc651fa4d13702"
+      }
+    ],
+    "createdAt": "2026-08-13T15:42:47.090Z",
+    "updatedAt": "2026-08-22T11:12:21.721Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Jalna/Mumbai ",
+    "email": "",
+    "name": "mujahid jalna/Mumbai ",
+    "phone": "+919960113545"
+  },
+  {
+    "_id": "6a7e11bc1dfbc2a78996ac58",
+    "username": "the_last_h0kage",
+    "platformUserId": "1100620912301661",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Following Up",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": "Incoming facility is not available for this number",
+        "status": "Following Up",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-22T14:45:48.154Z",
+        "_id": "6a89b61c8adc651fa4d1459d"
+      },
+      {
+        "text": "software engineer at a company \nInterested in social membership \nWill get back",
+        "status": "Pitched Membership",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-17T09:51:49.806Z",
+        "_id": "6a82d9b526560a56b3990003"
+      },
+      {
+        "text": "To schedule a call",
+        "status": "Sent WhatsApp",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-15T14:02:12.312Z",
+        "_id": "6a807164b6c6ab5e2088e87d"
+      },
+      {
+        "text": "Incoming call to the number is not available",
+        "status": "Not Picking",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-15T11:01:41.491Z",
+        "_id": "6a804715b6c6ab5e2088e599"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Not Picking",
+        "timestamp": "2026-08-15T11:01:41.471Z",
+        "_id": "6a804715b6c6ab5e2088e59a"
+      },
+      {
+        "status": "Sent WhatsApp",
+        "timestamp": "2026-08-15T14:02:12.292Z",
+        "_id": "6a807164b6c6ab5e2088e87e"
+      },
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-08-17T09:51:49.783Z",
+        "_id": "6a82d9b526560a56b3990004"
+      },
+      {
+        "status": "Following Up",
+        "timestamp": "2026-08-22T14:45:48.134Z",
+        "_id": "6a89b61c8adc651fa4d1459e"
+      }
+    ],
+    "createdAt": "2026-08-13T18:49:32.880Z",
+    "updatedAt": "2026-08-22T14:45:48.154Z",
+    "__v": 0,
+    "activePathId": null,
+    "assignedTo": "6a7736208040763dd30315b8",
+    "city": "Davangere, Karnataka ",
+    "email": "",
+    "name": "",
+    "phone": "+918722068624"
+  },
+  {
+    "_id": "6a7f3dba1dfbc2a78996b552",
+    "username": "abid.mohamed.1",
+    "platformUserId": "1046430331331261",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Lost",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": "Not interested right now very busy",
+        "status": "Lost",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-26T10:27:22.127Z",
+        "_id": "6a8ebf8a18239c1214670aeb"
+      },
+      {
+        "text": "-Is a dentist \n- enquired about the community \n-will look through the details n get back",
+        "status": "Pitched Membership",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-15T12:23:37.230Z",
+        "_id": "6a805a49b6c6ab5e2088e71e"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-08-15T12:23:37.225Z",
+        "_id": "6a805a49b6c6ab5e2088e71f"
+      },
+      {
+        "status": "Lost",
+        "timestamp": "2026-08-26T10:27:22.120Z",
+        "_id": "6a8ebf8a18239c1214670aec"
+      }
+    ],
+    "createdAt": "2026-08-14T16:09:30.003Z",
+    "updatedAt": "2026-08-26T10:27:22.127Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "assignedTo": "6a7736208040763dd30315b8",
+    "city": "Puzhal Chennai ",
+    "email": "",
+    "name": "Abid Mohammed",
+    "phone": "+919444170810"
+  },
+  {
+    "_id": "6a8063eeb6c6ab5e2088e7b0",
+    "username": "dr_shabana_shaik_",
+    "platformUserId": "1581698113581250",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Pitched Membership",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Pitched Membership",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-21T13:43:44.579Z",
+        "_id": "6a88561041cd4645a238214d"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-08-21T13:43:44.574Z",
+        "_id": "6a88561041cd4645a238214e"
+      }
+    ],
+    "createdAt": "2026-08-15T13:04:46.131Z",
+    "updatedAt": "2026-08-21T13:49:12.597Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Kunigal/Bangalore ",
+    "email": "",
+    "name": "Dr.Shabana Shaikh Kunigal/bang ",
+    "phone": "+919916485247"
+  },
+  {
+    "_id": "6a82ef7726560a56b39913d1",
+    "username": "_.inzimam_",
+    "platformUserId": "1445102117437345",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "On Hold",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 1,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": "Next month September In Sha Allah \nWealth membership IN SHA ALLAH",
+        "status": "On Hold",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-22T07:05:40.434Z",
+        "_id": "6a894a448adc651fa4d101a2"
+      },
+      {
+        "text": "Will have to discuss with family \nA call was arranged with Mr. Imraan bhai (‘member of HLC) by Tashika sister Alhamdulillah \n-He said the community is good will discuss with family and get back next month",
+        "status": "On Hold",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-20T15:28:44.626Z",
+        "_id": "6a871d2c41cd4645a237787b"
+      },
+      {
+        "text": "Will join next month",
+        "status": "Pitched Membership",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-17T18:04:14.460Z",
+        "_id": "6a834d1ed54627b410e65bd9"
+      },
+      {
+        "text": "-a BNI member \n-eye care business  works as a managing partner at AN NOOR HOSPITAL \n-enquired for himself , his brother and father\n-father and brother are Unani doctors awarded its Shaafi Dawa khana - providing medicine NABI WAY\n-have received award as well for the same \n-wants to communicate with a member of HLC to know if it’s fruitful joining the community or not",
+        "status": "Pitched Membership",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-17T18:01:35.304Z",
+        "_id": "6a834c7fd54627b410e65bc0"
+      },
+      {
+        "text": "-a BNI member \n-eye care business  works as a managing partner at AN NOOR HOSPITAL \n-enquired for himself , his brother and father\n-father and brother are Unani doctors awarded its Shaafi Dawa khana - providing medicine NABI WAY\n-have received award as well for the same \n-wants to communicate with a member of HLC to know if it’s fruitful joining the community or not",
+        "status": "Pitched Membership",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-17T18:01:06.108Z",
+        "_id": "6a834c62d54627b410e65bb3"
+      },
+      {
+        "text": "-was previously in some BNI as well\n-into hospital liaison or  hospital business analyst (not sure)\n-Father and brother are (Hakims) Unani doctors 9not sure if it’s Shaafi Dawa Khana ) \n-providing Medicine the Nabi way \n-wants to communicate with a member of HLC to know if it’s fruitful joining the business \n-have received award as well for the same",
+        "status": "Pitched Membership",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-17T17:41:11.338Z",
+        "_id": "6a8347b7d54627b410e657d7"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-08-17T17:41:11.329Z",
+        "_id": "6a8347b7d54627b410e657d8"
+      },
+      {
+        "status": "On Hold",
+        "timestamp": "2026-08-20T15:28:44.620Z",
+        "_id": "6a871d2c41cd4645a237787c"
+      }
+    ],
+    "createdAt": "2026-08-17T11:24:39.043Z",
+    "updatedAt": "2026-08-22T07:05:40.434Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "assignedTo": "6a7736208040763dd30315b8",
+    "city": "Ranipet Chennai ",
+    "email": "",
+    "name": "Inzimam ",
+    "phone": "+918489738497"
+  },
+  {
+    "_id": "6a834fe9d54627b410e65bfe",
+    "username": "IG_User_1074630412082523",
+    "platformUserId": "1074630412082523",
+    "platform": "instagram",
+    "source": "dm",
+    "status": "Spoken",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": "call tomorrow at 10:30",
+        "status": "Spoken",
+        "createdBy": "6a442de8b1bb3e95908be7f2",
+        "createdAt": "2026-08-21T15:39:30.085Z",
+        "_id": "6a88713241cd4645a238563c"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Spoken",
+        "timestamp": "2026-08-21T15:39:30.062Z",
+        "_id": "6a88713241cd4645a238563d"
+      }
+    ],
+    "createdAt": "2026-08-17T18:16:09.030Z",
+    "updatedAt": "2026-08-21T15:39:30.085Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "assignedTo": "6a442de8b1bb3e95908be7f2",
+    "city": "Shrirampur,",
+    "email": "",
+    "name": "Dr Sohail A Patel",
+    "phone": "+919405126686"
+  },
+  {
+    "_id": "6a8402ffd54627b410e692ea",
+    "username": "IG_User_1288341326572073",
+    "platformUserId": "1288341326572073",
+    "platform": "instagram",
+    "source": "dm",
+    "status": "Pitched Membership",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": "She is looking for job in HLC",
+        "status": "Pitched Membership",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-19T10:52:37.828Z",
+        "_id": "6a858af541cd4645a2371647"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-08-19T10:52:37.807Z",
+        "_id": "6a858af541cd4645a2371648"
+      }
+    ],
+    "createdAt": "2026-08-18T07:00:16.000Z",
+    "updatedAt": "2026-08-19T10:52:37.828Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Shirpur/Mumbai",
+    "email": "",
+    "name": "Ayesha ",
+    "phone": "+917841046469"
+  },
+  {
+    "_id": "6a8494a741cd4645a236c64d",
+    "username": "syedhussain7964",
+    "platformUserId": "2295604284529096",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Pitched Membership",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": ".",
+        "status": "Pitched Membership",
+        "createdBy": "6a40f7edd2aa946dd336b2d9",
+        "createdAt": "2026-08-20T12:49:57.535Z",
+        "_id": "6a86f7f541cd4645a2376a86"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-08-20T12:49:57.530Z",
+        "_id": "6a86f7f541cd4645a2376a87"
+      }
+    ],
+    "createdAt": "2026-08-18T17:21:43.271Z",
+    "updatedAt": "2026-08-20T12:49:57.535Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "assignedTo": "6a40f7edd2aa946dd336b2d9",
+    "city": "Bidar/Hyderabad",
+    "email": "",
+    "name": "Syed Hussain bidar/hyd",
+    "phone": "+919353481400"
+  },
+  {
+    "_id": "6a84997d41cd4645a236c65f",
+    "username": "IG_User_1595893382050714",
+    "platformUserId": "1595893382050714",
+    "platform": "instagram",
+    "source": "dm",
+    "status": "Pitched Membership",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": "sent",
+        "status": "Pitched Membership",
+        "createdBy": "6a442de8b1bb3e95908be7f2",
+        "createdAt": "2026-08-19T13:52:31.534Z",
+        "_id": "6a85b51f41cd4645a237274c"
+      },
+      {
+        "text": "didnt pick",
+        "status": "Not Picking",
+        "createdBy": "6a442de8b1bb3e95908be7f2",
+        "createdAt": "2026-08-19T13:45:59.168Z",
+        "_id": "6a85b39741cd4645a2372734"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Not Picking",
+        "timestamp": "2026-08-19T13:45:59.138Z",
+        "_id": "6a85b39741cd4645a2372735"
+      },
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-08-19T13:52:31.530Z",
+        "_id": "6a85b51f41cd4645a237274d"
+      }
+    ],
+    "createdAt": "2026-08-18T17:42:21.729Z",
+    "updatedAt": "2026-08-19T13:52:31.534Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "assignedTo": "6a442de8b1bb3e95908be7f2",
+    "city": "TUMKUR DISTRICT-KARNATAKA",
+    "email": "",
+    "name": "HASEEB ULLA KHAN",
+    "phone": "+919663506200"
+  },
+  {
+    "_id": "6a8537d141cd4645a236d569",
+    "username": "IG_User_939503485098436",
+    "platformUserId": "939503485098436",
+    "platform": "instagram",
+    "source": "dm",
+    "status": "Call Later",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": "Will call back in a while",
+        "status": "Call Later",
+        "createdBy": "6a40f83fd2aa946dd336b2e0",
+        "createdAt": "2026-08-20T08:35:05.944Z",
+        "_id": "6a86bc3941cd4645a23750d4"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Call Later",
+        "timestamp": "2026-08-20T08:35:05.936Z",
+        "_id": "6a86bc3941cd4645a23750d5"
+      }
+    ],
+    "createdAt": "2026-08-19T04:57:53.277Z",
+    "updatedAt": "2026-08-20T08:35:05.944Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "assignedTo": "6a40f83fd2aa946dd336b2e0",
+    "city": "Buldhana MH",
+    "email": "",
+    "name": "Shoaib Khan",
+    "phone": "+918180009721"
+  },
+  {
+    "_id": "6a89d9a78adc651fa4d17313",
+    "username": "nunu_hampers",
+    "platformUserId": "1066238515785087",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Pitched Membership",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": "Will get back to you\nCurrently travelling \nNu nu hampers \nFurniture business",
+        "status": "Pitched Membership",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-26T15:38:55.425Z",
+        "_id": "6a8f088f18239c12146763c6"
+      },
+      {
+        "text": "In meeting",
+        "status": "Spoken",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-25T08:25:08.075Z",
+        "_id": "6a8d516418239c121465f72b"
+      },
+      {
+        "text": "Call after 6pm",
+        "status": "Spoken",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-25T08:24:59.369Z",
+        "_id": "6a8d515b18239c121465f719"
+      },
+      {
+        "text": "Unavailable",
+        "status": "Not Picking",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-23T09:53:35.021Z",
+        "_id": "6a8ac31f8adc651fa4d1c3d9"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Not Picking",
+        "timestamp": "2026-08-23T09:53:35.015Z",
+        "_id": "6a8ac31f8adc651fa4d1c3da"
+      },
+      {
+        "status": "Spoken",
+        "timestamp": "2026-08-25T08:24:59.363Z",
+        "_id": "6a8d515b18239c121465f71a"
+      },
+      {
+        "status": "Pitched Membership",
+        "timestamp": "2026-08-26T15:38:55.403Z",
+        "_id": "6a8f088f18239c12146763c7"
+      }
+    ],
+    "createdAt": "2026-08-22T17:17:27.088Z",
+    "updatedAt": "2026-08-26T15:38:55.425Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "assignedTo": "6a7736208040763dd30315b8",
+    "city": "Velachery , Chennai ",
+    "email": "",
+    "name": "",
+    "phone": "+918807097797"
+  },
+  {
+    "_id": "6a8c80ac8adc651fa4d3161c",
+    "username": "nishat_yasser",
+    "platformUserId": "2076091996348723",
+    "platform": "instagram",
+    "source": "comment",
+    "status": "Not Picking",
+    "priority": "hot",
+    "tags": [],
+    "amountPaid": 0,
+    "amountPaidExclusive": 0,
+    "isRenewal": false,
+    "isUpgrade": false,
+    "isDowngrade": false,
+    "isCancellation": false,
+    "isPipelineLead": true,
+    "activePathStepIndex": 0,
+    "isDeleted": false,
+    "notes": [
+      {
+        "text": "Busy",
+        "status": "Not Picking",
+        "createdBy": "6a7736208040763dd30315b8",
+        "createdAt": "2026-08-26T14:55:38.234Z",
+        "_id": "6a8efe6a18239c1214675d1e"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Not Picking",
+        "timestamp": "2026-08-26T14:55:38.227Z",
+        "_id": "6a8efe6a18239c1214675d1f"
+      }
+    ],
+    "createdAt": "2026-08-24T17:34:36.697Z",
+    "updatedAt": "2026-08-26T14:55:38.235Z",
+    "__v": 0,
+    "activePathId": "fzop7ir58",
+    "assignedTo": "6a7736208040763dd30315b8",
+    "city": "NAVI Mumbai,Mumbai ",
+    "email": "",
+    "name": "Nishat Yasser",
+    "phone": "+919930180955"
+  }
+]

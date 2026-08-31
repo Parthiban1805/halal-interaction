@@ -1,0 +1,197 @@
+@import "tailwindcss";
+
+@theme {
+ --font-inter: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+:root {
+ /* Primary Brand Colors */
+ --color-primary: #111827; /* Very Dark Slate / Black (Buttons) */
+ --color-primary-hover: #374151; /* Lighter Dark Gray */
+ --color-primary-light: #F3F4F6; /* Gray 100 */
+ 
+ --color-accent: #3B82F6; /* Blue (Active indicators) */
+ --color-accent-light: #EFF6FF; /* Blue 50 */
+
+ /* Neutral Backgrounds (Light Theme Only) */
+ --color-bg-app: #F8F9FB; /* Subtle off-white background */
+ --color-bg-card: #FFFFFF; /* Pure White */
+ --color-bg-subtle: #F3F4F6; /* Light Gray (Hover/Active areas) */
+ --color-bg-active: #F9FAFB; /* Very light gray for selection */
+ --color-bg-hover: rgba(0, 0, 0, 0.03);
+
+ /* Text Colors */
+ --color-text-main: #111827; /* Slate 900 */
+ --color-text-muted: #6B7280; /* Slate 500 */
+ --color-text-light: #9CA3AF; /* Slate 400 */
+
+ /* Borders */
+ --color-border-subtle: #E5E7EB;/* Slate 200 */
+ --color-border-focus: #D1D5DB; /* Slate 300 */
+ 
+ /* Status Colors */
+ --color-status-success: #16A34A; /* Green 600 */
+ --color-status-success-bg: #DCFCE7; /* Green 100 */
+ 
+ --color-status-error: #DC2626; /* Red 600 */
+ --color-status-error-bg: #FEE2E2; /* Red 100 */
+ 
+ --color-status-info: #2563EB; /* Blue 600 */
+ --color-status-info-bg: #DBEAFE; /* Blue 100 */
+ 
+ --color-status-warning: #D97706; /* Amber 600 */
+ --color-status-warning-bg: #FEF3C7; /* Amber 100 */
+ 
+ --color-status-purple: #9333EA; /* Purple 600 */
+ --color-status-purple-bg: #F3E8FF; /* Purple 100 */
+
+ /* Messages specific */
+ --color-msg-incoming: #F3F4F6;
+ --color-msg-incoming-text: #111827;
+ --color-msg-outgoing: #111827;
+ --color-msg-outgoing-text: #FFFFFF;
+}
+
+@layer base {
+ body {
+ @apply font-inter bg-[var(--color-bg-app)] text-[var(--color-text-main)] antialiased m-0 p-0;
+ }
+}
+
+@layer components {
+ /* Cards */
+ .card-panel {
+ @apply bg-[var(--color-bg-card)] rounded-2xl border border-[var(--color-border-subtle)] ;
+ }
+
+ /* Custom Toggle */
+ .pro-toggle {
+ @apply relative w-10 h-5 shrink-0;
+ }
+ 
+ .pro-toggle input {
+ @apply opacity-0 w-0 h-0 absolute;
+ }
+ 
+ .pro-toggle-track {
+ @apply absolute inset-0 bg-[#E5E7EB] rounded-full cursor-pointer transition-colors duration-200 border border-[#D1D5DB];
+ }
+ 
+ .pro-toggle input:checked + .pro-toggle-track {
+ @apply bg-[var(--color-accent)] border-[var(--color-accent)];
+ }
+ 
+ .pro-toggle-track::after {
+ content: '';
+ @apply absolute left-[1px] top-[1px] w-[16px] h-[16px] rounded-full bg-white transition-transform duration-200 ;
+ }
+ 
+ .pro-toggle input:checked + .pro-toggle-track::after {
+ @apply translate-x-5;
+ }
+
+ /* Buttons */
+ .btn-primary {
+ @apply bg-[var(--color-primary)] text-white px-5 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 hover:bg-[var(--color-primary-hover)] focus:ring-2 focus:ring-[var(--color-border-subtle)] focus:outline-none flex items-center justify-center gap-2 ;
+ }
+
+ .btn-secondary {
+ @apply bg-white text-[var(--color-text-main)] border border-[var(--color-border-subtle)] px-5 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 hover:bg-[var(--color-bg-subtle)] focus:ring-2 focus:ring-[var(--color-border-focus)] focus:outline-none flex items-center justify-center gap-2 ;
+ }
+}
+
+@layer utilities {
+ .fade-in {
+ animation: fadeIn 0.3s ease forwards;
+ }
+
+ .slide-up {
+ animation: slideUp 0.3s ease forwards;
+ }
+
+ @keyframes fadeIn {
+ from { opacity: 0; }
+ to { opacity: 1; }
+ }
+
+ @keyframes slideUp {
+ from {
+ opacity: 0;
+ transform: translateY(10px);
+ }
+ to {
+ opacity: 1;
+ transform: translateY(0);
+ }
+ }
+
+ .glass-effect {
+ @apply bg-white/80 backdrop-blur-lg border-b border-[var(--color-border-subtle)];
+ }
+
+ .shimmer-bg {
+    position: relative;
+    overflow: hidden;
+    background-color: #f3f4f6; /* Gray 100 */
+  }
+  
+  .shimmer-bg::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0,
+      rgba(255, 255, 255, 0.4) 20%,
+      rgba(255, 255, 255, 0.8) 60%,
+      rgba(255, 255, 255, 0)
+    );
+    animation: shimmer 2s infinite;
+    content: '';
+  }
+
+  @keyframes shimmer {
+    100% {
+      transform: translateX(100%);
+    }
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+ width: 6px;
+ height: 6px;
+}
+::-webkit-scrollbar-track {
+ background: transparent;
+}
+::-webkit-scrollbar-thumb {
+ background: var(--color-border-focus);
+ border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+ background: var(--color-text-muted);
+}
+
+/* React Phone Input 2 UI overrides */
+.react-tel-input .country-list {
+  @apply bg-[var(--color-bg-card)] border border-[var(--color-border-subtle)] rounded-xl shadow-lg m-0 p-0;
+}
+.react-tel-input .country-list .country {
+  @apply px-4 py-2 text-sm text-[var(--color-text-main)] hover:bg-[var(--color-bg-subtle)] transition-colors;
+}
+.react-tel-input .country-list .country.highlight {
+  @apply bg-[#EFF6FF] text-[#3B82F6];
+}
+.react-tel-input .country-list .search {
+  @apply bg-[var(--color-bg-card)] border-b border-[var(--color-border-subtle)] p-2 sticky top-0 z-10;
+}
+.react-tel-input .country-list .search-box {
+  @apply w-full bg-[var(--color-bg-subtle)] border border-[var(--color-border-subtle)] rounded-md px-3 py-1.5 text-sm text-[var(--color-text-main)] focus:outline-none focus:ring-1 focus:ring-[var(--color-border-focus)] m-0;
+}
+.react-tel-input .country-list .search-emoji {
+  display: none !important;
+}
