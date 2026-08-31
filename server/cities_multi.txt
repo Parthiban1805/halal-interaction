@@ -1,0 +1,45 @@
+(Bangalore)/Chennai/AP
+Amaravati/Mumbai
+Ananthapur/Ap/ Hyderabad
+Aurangabad/Mumbai
+Belgaum/Bangalore
+Bangalore / Dubai
+Bangalore/Hyderabad
+Bangalore/kolkatta
+Chennai, Bangalore
+Chennai, Salem
+Chennai/Bangalore
+China / Bangalore
+Coimbatore/Chennai
+Davangere/Bangalore
+Dharwad/Bangalore
+Goa/Mumbai
+Gulbarga/bangalore
+Hariyar/Bangalore
+Haveri/Bang
+Haveri/Bangalore
+Hiriyur/Bangalore
+Hosur/Bangalore
+Hubbali/Bangalore
+Hubli/ Bang
+Hubli/Bangalore
+Hyd/ Delhi
+Hyderabad and Pune
+Hyderabad/ Ahmedabad
+Hyderabad/ Nandyal(AP)
+Hyderabad/Chennai
+Jalna/Mumbai
+Kashmir/Gurgown
+Kerala/Bangalore
+Kurnool/Ap/ hyd
+Mysore/Bangalore
+Nagpur/Mumbai
+Nanded/Mumbai/MH
+NAVI Mumbai,Mumbai
+Pavagada/Bangalore
+Ranipet Chennai
+Siddipet, Hyd
+Trichy/Chennai
+Tumkur/Bang
+Velachery , Chennai
+Virudhunagar/Chennai

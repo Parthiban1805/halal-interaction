@@ -1,0 +1,574 @@
+const Lead = require('../models/Lead');
+const LeadStatusHistory = require('../models/LeadStatusHistory');
+const User = require('../models/User');
+
+// @desc    Get all leads
+// @route   GET /api/leads
+// @access  Private
+exports.getLeads = async (req, res) => {
+  try {
+    const leads = await Lead.find().sort({ createdAt: -1 });
+    res.status(200).json({
+      success: true,
+      count: leads.length,
+      data: leads
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+};
+
+// @desc    Update lead details (status, priority, etc)
+// @route   PUT /api/leads/:id
+// @access  Private
+exports.updateLeadStage = async (req, res) => {
+  try {
+    let lead = await Lead.findById(req.params.id);
+
+    if (!lead) {
+      return res.status(404).json({ success: false, error: 'Lead not found' });
+    }
+    
+    const oldStatus = lead.status;
+
+
+
+    if (req.body.status && req.body.status !== lead.status) {
+      const pipelineOrder = {
+        'New': 1,
+        'Not Picking': 2,
+        'Sent WhatsApp': 3,
+        'Call Later': 4,
+        'Spoken': 5,
+        'Pitched Membership': 6,
+        'Following Up': 7,
+        'Payment Pending': 8,
+        'Won': 9,
+        'Lost': 10,
+        'On Hold': 11,
+        'Future City': 12,
+        'Wrong Number': 13
+      };
+      
+      const oldIndex = pipelineOrder[lead.status] || 0;
+      const newIndex = pipelineOrder[req.body.status] || 0;
+      
+      const specialStatuses = ['On Hold', 'Future City', 'Wrong Number'];
+      if (specialStatuses.includes(lead.status)) {
+        if (req.body.status === 'New') {
+          return res.status(400).json({ success: false, error: 'Cannot move a special status lead back to New.' });
+        }
+      } else if (oldIndex > 0 && newIndex > 0 && newIndex < oldIndex) {
+        return res.status(400).json({ success: false, error: 'Lead status progression must move forward.' });
+      }
+      if (!req.body.newNote || !req.body.newNote.trim()) {
+        return res.status(400).json({ success: false, error: 'A note is mandatory when changing the lead status.' });
+      }
+      
+      if (req.body.status === 'Won') {
+        const { includeMembership, includeEvent } = req.body;
+        
+        // Backwards compatibility for old clients or UI without toggles
+        const isMembershipOnly = includeMembership === undefined && includeEvent === undefined;
+        
+        if (includeMembership || isMembershipOnly) {
+          if (!req.body.membershipTierId || req.body.subscriptionAmount === undefined || !req.body.startDate || !req.body.endDate || req.body.amountPaid === undefined) {
+            return res.status(400).json({ success: false, error: 'Membership details (Tier, Subscription Amount, Start Date, End Date, Amount Paid) are mandatory.' });
+          }
+        }
+        
+        if (includeEvent) {
+          if (!req.body.eventId || !req.body.activityId || req.body.eventAmountPaid === undefined) {
+            return res.status(400).json({ success: false, error: 'Event details (Event, Activity, Amount Paid) are mandatory.' });
+          }
+        }
+        
+        if (!includeMembership && !includeEvent && !isMembershipOnly) {
+           return res.status(400).json({ success: false, error: 'You must include either a Membership or an Event when marking a lead as Won.' });
+        }
+      }
+    }
+
+    const { 
+      newNote, notes, statusHistory, 
+      membershipTierId, subscriptionAmount, startDate, endDate, offerApplied, discountPercentage,
+      includeMembership, includeEvent, eventId, activityId, eventAmountPaid, eventOfferApplied, eventDiscountPercentage,
+      ...otherUpdates 
+    } = req.body;
+    
+    // Prevent modifying amountPaid or isRenewal if the lead was already Won
+    if (lead.status === 'Won') {
+      if (otherUpdates.amountPaid !== undefined) delete otherUpdates.amountPaid;
+      if (otherUpdates.isRenewal !== undefined) delete otherUpdates.isRenewal;
+    } else if (otherUpdates.amountPaid !== undefined) {
+      // If we are setting amountPaid (newly Won lead), calculate exclusive
+      otherUpdates.amountPaidExclusive = Number((otherUpdates.amountPaid / 1.18).toFixed(2));
+    }
+
+    const updateQuery = { $set: otherUpdates };
+
+    if (req.body.status && req.body.status !== lead.status) {
+      updateQuery.$push = updateQuery.$push || {};
+      updateQuery.$push.statusHistory = {
+        status: req.body.status,
+        timestamp: new Date()
+      };
+
+      await LeadStatusHistory.create({
+        leadId: lead._id,
+        oldStage: lead.status,
+        newStage: req.body.status,
+        changedBy: req.user ? req.user._id : null
+      });
+    }
+
+    if (newNote && newNote.trim()) {
+      updateQuery.$push = updateQuery.$push || {};
+      updateQuery.$push.notes = {
+        $each: [{
+          text: newNote.trim(),
+          status: req.body.status || lead.status,
+          createdBy: req.user ? req.user._id : null,
+          createdAt: new Date()
+        }],
+        $position: 0
+      };
+    }
+
+    lead = await Lead.findByIdAndUpdate(req.params.id, updateQuery, { new: true });
+
+    // If the lead was just converted to Won, create the membership and/or event transaction
+    if (req.body.status === 'Won' && oldStatus !== 'Won') {
+      const { includeMembership, includeEvent, eventId, activityId, eventAmountPaid, eventOfferApplied, eventDiscountPercentage } = req.body;
+      
+      if (includeMembership !== false) {
+        const MembershipTransaction = require('../models/MembershipTransaction');
+        await MembershipTransaction.create({
+          leadId: lead._id,
+          tierId: membershipTierId,
+          subscriptionAmount: subscriptionAmount,
+          amountPaid: req.body.amountPaid,
+          startDate: startDate,
+          endDate: endDate,
+          isRenewal: false,
+          offerApplied: offerApplied || false,
+          discountPercentage: discountPercentage || 0
+        });
+      }
+
+      if (includeEvent) {
+        const EventTransaction = require('../models/EventTransaction');
+        await EventTransaction.create({ 
+          leadId: lead._id,
+          eventId: eventId,
+          activityId: activityId,
+          amountPaid: eventAmountPaid,
+          offerApplied: eventOfferApplied || false,
+          discountPercentage: eventDiscountPercentage || 0
+        });
+      }
+    }
+    res.status(200).json({
+      success: true,
+      data: lead
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+};
+
+// @desc    Add a note to a lead
+// @route   POST /api/leads/:id/notes
+// @access  Private
+exports.addNote = async (req, res) => {
+  try {
+    const { newNote } = req.body;
+    
+    if (!newNote || !newNote.trim()) {
+      return res.status(400).json({ success: false, error: 'Note text is required.' });
+    }
+
+    const lead = await Lead.findById(req.params.id);
+    if (!lead) {
+      return res.status(404).json({ success: false, error: 'Lead not found' });
+    }
+
+    const noteObject = {
+      text: newNote.trim(),
+      status: lead.status, // use current status
+      createdBy: req.user ? req.user._id : null,
+      createdAt: new Date()
+    };
+
+    const updatedLead = await Lead.findByIdAndUpdate(
+      req.params.id,
+      {
+        $push: {
+          notes: {
+            $each: [noteObject],
+            $position: 0
+          }
+        }
+      },
+      { new: true }
+    );
+
+    res.status(200).json({
+      success: true,
+      data: updatedLead
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+};
+
+// @desc    Get activity feed for leads
+// @route   GET /api/leads/activity-feed
+// @access  Private
+exports.getActivityFeed = async (req, res) => {
+  try {
+    const activities = await LeadStatusHistory.find()
+      .populate('leadId', 'name username')
+      .populate('changedBy', 'name email')
+      .sort({ createdAt: -1 });
+
+    res.status(200).json({
+      success: true,
+      count: activities.length,
+      data: activities
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+};
+
+// @desc    Get all transactions (Memberships and Events) for a lead
+// @route   GET /api/leads/:id/transactions
+// @access  Private
+exports.getLeadTransactions = async (req, res) => {
+  try {
+    const MembershipTransaction = require('../models/MembershipTransaction');
+    const EventTransaction = require('../models/EventTransaction');
+
+    const [memberships, events] = await Promise.all([
+      MembershipTransaction.find({ leadId: req.params.id })
+        .populate('tierId')
+        .sort({ transactionDate: -1 }),
+      EventTransaction.find({ leadId: req.params.id })
+        .populate('eventId')
+        .populate('activityId')
+        .sort({ transactionDate: -1 })
+    ]);
+
+    const formattedMemberships = memberships.map(m => ({
+      ...m.toObject(),
+      type: 'membership'
+    }));
+
+    const formattedEvents = events.map(e => ({
+      ...e.toObject(),
+      type: 'event'
+    }));
+
+    const combined = [...formattedMemberships, ...formattedEvents].sort((a, b) => {
+      return new Date(b.transactionDate) - new Date(a.transactionDate);
+    });
+
+    res.status(200).json({
+      success: true,
+      data: combined
+    });
+        if (!includeMembership && !includeEvent && !isMembershipOnly) {
+           return res.status(400).json({ success: false, error: 'You must include either a Membership or an Event when marking a lead as Won.' });
+        }
+      }
+    }
+
+    const { 
+      newNote, notes, statusHistory, 
+      membershipTierId, subscriptionAmount, startDate, endDate, offerApplied, discountPercentage,
+      includeMembership, includeEvent, eventId, activityId, eventAmountPaid, eventOfferApplied, eventDiscountPercentage,
+      ...otherUpdates 
+    } = req.body;
+    
+    // Prevent modifying amountPaid or isRenewal if the lead was already Won
+    if (lead.status === 'Won') {
+      if (otherUpdates.amountPaid !== undefined) delete otherUpdates.amountPaid;
+      if (otherUpdates.isRenewal !== undefined) delete otherUpdates.isRenewal;
+    } else if (otherUpdates.amountPaid !== undefined) {
+      // If we are setting amountPaid (newly Won lead), calculate exclusive
+      otherUpdates.amountPaidExclusive = Number((otherUpdates.amountPaid / 1.18).toFixed(2));
+    }
+
+    const updateQuery = { $set: otherUpdates };
+
+    if (req.body.status && req.body.status !== lead.status) {
+      updateQuery.$push = updateQuery.$push || {};
+      updateQuery.$push.statusHistory = {
+        status: req.body.status,
+        timestamp: new Date()
+      };
+
+      await LeadStatusHistory.create({
+        leadId: lead._id,
+        oldStage: lead.status,
+        newStage: req.body.status,
+        changedBy: req.user ? req.user._id : null
+      });
+    }
+
+    if (newNote && newNote.trim()) {
+      updateQuery.$push = updateQuery.$push || {};
+      updateQuery.$push.notes = {
+        $each: [{
+          text: newNote.trim(),
+          status: req.body.status || lead.status,
+          createdBy: req.user ? req.user._id : null,
+          createdAt: new Date()
+        }],
+        $position: 0
+      };
+    }
+
+    lead = await Lead.findByIdAndUpdate(req.params.id, updateQuery, { new: true });
+
+    // If the lead was just converted to Won, create the membership and/or event transaction
+    if (req.body.status === 'Won' && oldStatus !== 'Won') {
+      const { includeMembership, includeEvent, eventId, activityId, eventAmountPaid, eventOfferApplied, eventDiscountPercentage } = req.body;
+      
+      if (includeMembership !== false) {
+        const MembershipTransaction = require('../models/MembershipTransaction');
+        await MembershipTransaction.create({
+          leadId: lead._id,
+          tierId: membershipTierId,
+          subscriptionAmount: subscriptionAmount,
+          amountPaid: req.body.amountPaid,
+          startDate: startDate,
+          endDate: endDate,
+          isRenewal: false,
+          offerApplied: offerApplied || false,
+          discountPercentage: discountPercentage || 0
+        });
+      }
+
+      if (includeEvent) {
+        const EventTransaction = require('../models/EventTransaction');
+        await EventTransaction.create({
+          leadId: lead._id,
+          eventId: eventId,
+          activityId: activityId,
+          amountPaid: eventAmountPaid,
+          offerApplied: eventOfferApplied || false,
+          discountPercentage: eventDiscountPercentage || 0
+        });
+      }
+    }
+    res.status(200).json({
+      success: true,
+      data: lead
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+};
+
+// @desc    Add a note to a lead
+// @route   POST /api/leads/:id/notes
+// @access  Private
+exports.addNote = async (req, res) => {
+  try {
+    const { newNote } = req.body;
+    
+    if (!newNote || !newNote.trim()) {
+      return res.status(400).json({ success: false, error: 'Note text is required.' });
+    }
+
+    const lead = await Lead.findById(req.params.id);
+    if (!lead) {
+      return res.status(404).json({ success: false, error: 'Lead not found' });
+    }
+
+    const noteObject = {
+      text: newNote.trim(),
+      status: lead.status, // use current status
+      createdBy: req.user ? req.user._id : null,
+      createdAt: new Date()
+    };
+
+    const updatedLead = await Lead.findByIdAndUpdate(
+      req.params.id,
+      {
+        $push: {
+          notes: {
+            $each: [noteObject],
+            $position: 0
+          }
+        }
+      },
+      { new: true }
+    );
+
+    res.status(200).json({
+      success: true,
+      data: updatedLead
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+};
+
+// @desc    Get activity feed for leads
+// @route   GET /api/leads/activity-feed
+// @access  Private
+exports.getActivityFeed = async (req, res) => {
+  try {
+    const activities = await LeadStatusHistory.find()
+      .populate('leadId', 'name username')
+      .populate('changedBy', 'name email')
+      .sort({ createdAt: -1 });
+
+    res.status(200).json({
+      success: true,
+      count: activities.length,
+      data: activities
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+};
+
+// @desc    Get all transactions (Memberships and Events) for a lead
+// @route   GET /api/leads/:id/transactions
+// @access  Private
+exports.getLeadTransactions = async (req, res) => {
+  try {
+    const MembershipTransaction = require('../models/MembershipTransaction');
+    const EventTransaction = require('../models/EventTransaction');
+
+    const [memberships, events] = await Promise.all([
+      MembershipTransaction.find({ leadId: req.params.id })
+        .populate('tierId')
+        .sort({ transactionDate: -1 }),
+      EventTransaction.find({ leadId: req.params.id })
+        .populate('eventId')
+        .populate('activityId')
+        .sort({ transactionDate: -1 })
+    ]);
+
+    const formattedMemberships = memberships.map(m => ({
+      ...m.toObject(),
+      type: 'membership'
+    }));
+
+    const formattedEvents = events.map(e => ({
+      ...e.toObject(),
+      type: 'event'
+    }));
+
+    const combined = [...formattedMemberships, ...formattedEvents].sort((a, b) => {
+      return new Date(b.transactionDate) - new Date(a.transactionDate);
+    });
+
+    res.status(200).json({
+      success: true,
+      data: combined
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+};
+
+// @desc    Add a transaction (Membership and/or Event) to a lead
+// @route   POST /api/leads/:id/transactions
+// @access  Private
+exports.addLeadTransaction = async (req, res) => {
+  try {
+    const { 
+      includeMembership, includeEvent, 
+      membershipTierId, subscriptionAmount, amountPaid, startDate, endDate, isRenewal, offerApplied, discountPercentage,
+      eventId, activityId, eventAmountPaid, eventOfferApplied, eventDiscountPercentage 
+    } = req.body;
+
+    const isMembershipOnly = includeMembership === undefined && includeEvent === undefined;
+
+    if (includeMembership || isMembershipOnly) {
+      if (!membershipTierId || subscriptionAmount === undefined || !startDate || !endDate || amountPaid === undefined) {
+        return res.status(400).json({ success: false, error: 'Membership details (Tier, Subscription Amount, Start Date, End Date, Amount Paid) are mandatory.' });
+      }
+    }
+
+    if (includeEvent) {
+      if (!eventId || !activityId || eventAmountPaid === undefined) {
+        return res.status(400).json({ success: false, error: 'Event details (Event, Activity, Amount Paid) are mandatory.' });
+      }
+    }
+
+    if (!includeMembership && !includeEvent && !isMembershipOnly) {
+      return res.status(400).json({ success: false, error: 'You must include either a Membership or an Event transaction.' });
+    }
+
+    const createdTransactions = [];
+
+    if (includeMembership || isMembershipOnly) {
+      const MembershipTransaction = require('../models/MembershipTransaction');
+      const MembershipTier = require('../models/MembershipTier');
+      
+      let finalIsUpgrade = false;
+      let finalIsDowngrade = false;
+      let finalIsRenewal = isRenewal !== undefined ? isRenewal : true;
+
+      const lastTx = await MembershipTransaction.findOne({ leadId: req.params.id }).sort({ transactionDate: -1, createdAt: -1 }).populate('tierId');
+      const newTier = await MembershipTier.findById(membershipTierId);
+
+      if (lastTx && lastTx.tierId && newTier) {
+        if (newTier.level > lastTx.tierId.level) {
+          finalIsUpgrade = true;
+          finalIsDowngrade = false;
+          finalIsRenewal = false;
+        } else if (newTier.level < lastTx.tierId.level) {
+          finalIsDowngrade = true;
+          finalIsUpgrade = false;
+          finalIsRenewal = false;
+        }
+      }
+
+      const memTrans = await MembershipTransaction.create({
+        leadId: req.params.id,
+        tierId: membershipTierId,
+        subscriptionAmount: subscriptionAmount,
+        amountPaid: amountPaid,
+        startDate: startDate,
+        endDate: endDate,
+        isRenewal: finalIsRenewal,
+        isUpgrade: finalIsUpgrade,
+        isDowngrade: finalIsDowngrade,
+        offerApplied: offerApplied || false,
+        discountPercentage: discountPercentage || 0
+      });
+      await memTrans.populate('tierId');
+      createdTransactions.push({ ...memTrans.toObject(), type: 'membership' });
+    }
+
+    if (includeEvent) {
+      const EventTransaction = require('../models/EventTransaction');
+      const eventTrans = await EventTransaction.create({
+        leadId: req.params.id,
+        eventId: eventId,
+        activityId: activityId,
+        amountPaid: eventAmountPaid,
+        offerApplied: eventOfferApplied || false,
+        discountPercentage: eventDiscountPercentage || 0
+      });
+      await eventTrans.populate('eventId');
+      await eventTrans.populate('activityId');
+      createdTransactions.push({ ...eventTrans.toObject(), type: 'event' });
+    }
+
+    res.status(201).json({
+      success: true,
+      data: createdTransactions
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+};
