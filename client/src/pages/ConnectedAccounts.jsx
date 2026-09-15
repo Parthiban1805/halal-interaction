@@ -219,6 +219,90 @@ export default function ConnectedAccounts() {
         )}
 
       </div>
+
+      {/* OTHER ACCOUNTS HEADER */}
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6 mt-10">
+        <div>
+          <h1 className="text-xl font-bold text-[var(--color-text-main)] tracking-tight">Other accounts</h1>
+          <p className="text-sm text-[var(--color-text-muted)] mt-1">Manage external partner organizations and CRMs.</p>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        {/* Living Collective */}
+        {(() => {
+          const partner = account.partners?.find(p => p.username === 'livingcollective.india') || {};
+          return (
+            <div className="bg-[var(--color-bg-card)] rounded-2xl border border-[var(--color-border-subtle)] p-6 flex flex-col relative">
+              <div className="flex items-start gap-4 mb-4">
+                <div className="w-12 h-12 rounded-full shrink-0 border border-[var(--color-border-subtle)] overflow-hidden bg-[var(--color-bg-subtle)]">
+                  <img src={partner.profile_picture_url || "https://ui-avatars.com/api/?name=Living+Collective&background=random"} alt="Living Collective" className="w-full h-full object-cover" />
+                </div>
+                <div>
+                  <h3 className="text-md font-medium text-[var(--color-text-main)] mb-1">@livingcollective.india</h3>
+                  {partner.followers_count !== undefined && (
+                    <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-blue-600 bg-blue-500/10 px-2 py-0.5 rounded-md border border-blue-500/20">
+                      <Users size={12} /> {partner.followers_count} Followers
+                    </span>
+                  )}
+                </div>
+              </div>
+              {partner.biography && (
+                <div className="mb-4">
+                  <p className="text-sm text-[var(--color-text-main)] opacity-80 line-clamp-3 leading-relaxed font-medium">
+                    {partner.biography}
+                  </p>
+                </div>
+              )}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-auto pt-4 ">
+                <a href="https://instagram.com/livingcollective.india" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 p-2 bg-pink-500/5 hover:bg-pink-500/10 border border-pink-500/20 text-pink-600 rounded-lg text-sm font-semibold transition-colors">
+                  <ExternalLink size={14} /> Instagram Profile
+                </a>
+                <a href="https://insta-crm-phase-1.vercel.app" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 p-2 bg-blue-500/5 hover:bg-blue-500/10 border border-blue-500/20 text-blue-600 rounded-lg text-sm font-semibold transition-colors">
+                  <Globe size={14} /> Access CRM
+                </a>
+              </div>
+            </div>
+          );
+        })()}
+
+        {/* The Umrah Company */}
+        {(() => {
+          const partner = account.partners?.find(p => p.username === 'the.umrah.company') || {};
+          return (
+            <div className="bg-[var(--color-bg-card)] rounded-2xl border border-[var(--color-border-subtle)] p-6 flex flex-col relative">
+              <div className="flex items-start gap-4 mb-4">
+                <div className="w-12 h-12 rounded-full shrink-0 border border-[var(--color-border-subtle)] overflow-hidden bg-[var(--color-bg-subtle)]">
+                  <img src={partner.profile_picture_url || "https://ui-avatars.com/api/?name=The+Umrah+Company&background=random"} alt="The Umrah Company" className="w-full h-full object-cover" />
+                </div>
+                <div>
+                  <h3 className="text-md font-medium text-[var(--color-text-main)] mb-1">@the.umrah.company</h3>
+                  {partner.followers_count !== undefined && (
+                    <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-blue-600 bg-blue-500/10 px-2 py-0.5 rounded-md border border-blue-500/20">
+                      <Users size={12} /> {partner.followers_count} Followers
+                    </span>
+                  )}
+                </div>
+              </div>
+              {partner.biography && (
+                <div className="mb-4">
+                  <p className="text-sm text-[var(--color-text-main)] opacity-80 line-clamp-3 leading-relaxed font-medium">
+                    {partner.biography}
+                  </p>
+                </div>
+              )}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-auto pt-4 ">
+                <a href="https://instagram.com/the.umrah.company" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 p-2 bg-pink-500/5 hover:bg-pink-500/10 border border-pink-500/20 text-pink-600 rounded-lg text-sm font-semibold transition-colors">
+                  <ExternalLink size={14} /> Instagram Profile
+                </a>
+                <a href="https://umrah-crm-xi.vercel.app" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 p-2 bg-blue-500/5 hover:bg-blue-500/10 border border-blue-500/20 text-blue-600 rounded-lg text-sm font-semibold transition-colors">
+                  <Globe size={14} /> Access CRM
+                </a>
+              </div>
+            </div>
+          );
+        })()}
+      </div>
     </div>
   );
 }

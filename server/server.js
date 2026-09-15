@@ -1982,42 +1982,7 @@ app.use('/api/rules-templates', require('./routes/crmRulesTemplates')); // Maps 
 
 app.get('/api/connection-status', (req, res) => res.json({ connected: true, status: 'Active' }));
 
-app.get('/api/account/details', async (req, res) => {
-  try {
-    const axios = require('axios');
-    const token = process.env.META_PAGE_ACCESS_TOKEN;
-    if (!token) return res.json({ success: false, error: "No token configured" });
-    
-    const fields = 'id,name,category,emails,phone,website,followers_count,picture.type(large){url},instagram_business_account{id,username,profile_picture_url,followers_count,biography}';
-    const pageRes = await axios.get(`https://graph.facebook.com/v21.0/me?fields=${fields}&access_token=${token}`);
-    
-    // Check if token expiry is available via debug_token endpoint
-    let tokenValidDays = "Connected";
-    try {
-      const debugRes = await axios.get(`https://graph.facebook.com/v21.0/debug_token?input_token=${token}&access_token=${token}`);
-      const expiresAt = debugRes.data?.data?.expires_at;
-      if (expiresAt === 0) {
-        tokenValidDays = "Non-expiring";
-      } else if (expiresAt) {
-        const daysLeft = Math.ceil((expiresAt * 1000 - Date.now()) / (1000 * 60 * 60 * 24));
-        tokenValidDays = `${daysLeft}d remaining`;
-      }
-    } catch (e) {
-      console.error("[Account Details API] Failed to debug token", e.message);
-    }
-    
-    res.json({
-      success: true,
-      data: {
-        ...pageRes.data,
-        tokenValidDays
-      }
-    });
-  } catch (err) {
-    console.error('[Account Details API] Error:', err.response?.data || err.message);
-    res.status(500).json({ success: false, error: "Failed to fetch account details from Meta" });
-  }
-});
+
 
 app.get('/api/account/posts', async (req, res) => {
   try {
@@ -2233,6 +2198,67 @@ app.use('/api/events', require('./routes/eventRoutes'));
 app.use('/api/salary', require('./routes/salaryRoutes'));
 app.use('/api/teams', require('./routes/teamRoutes'));
 app.use('/api/pl', require('./routes/plRoutes'));
+
+app.get('/api/account/details', async (req, res) => {
+  try {
+    const axios = require('axios');
+    const token = process.env.META_PAGE_ACCESS_TOKEN;
+    if (!token) return res.json({ success: false, error: "No token configured" });
+    
+    const fields = 'id,name,category,emails,phone,website,followers_count,picture.type(large){url},instagram_business_account{id,username,profile_picture_url,followers_count,biography}';
+    const pageRes = await axios.get(`https://graph.facebook.com/v21.0/me?fields=${fields}&access_token=${token}`);
+    
+    // Check if token expiry is available via debug_token endpoint
+    let tokenValidDays = "Connected";
+    try {
+      const debugRes = await axios.get(`https://graph.facebook.com/v21.0/debug_token?input_token=${token}&access_token=${token}`);
+      const expiresAt = debugRes.data?.data?.expires_at;
+      if (expiresAt === 0) {
+        tokenValidDays = "Non-expiring";
+      } else if (expiresAt) {
+        const daysLeft = Math.ceil((expiresAt * 1000 - Date.now()) / (1000 * 60 * 60 * 24));
+        tokenValidDays = `${daysLeft}d remaining`;
+      }
+    } catch (e) {
+      console.error("[Account Details API] Failed to debug token", e.message);
+    }
+    
+    let partners = [];
+    try {
+      const igAccountId = pageRes.data.instagram_business_account?.id;
+      if (igAccountId) {
+        try {
+          const p1 = await axios.get(`https://graph.facebook.com/v21.0/${igAccountId}?fields=business_discovery.username(livingcollective.india){username,profile_picture_url,followers_count,biography}&access_token=${token}`);
+          if (p1.data?.business_discovery) partners.push(p1.data.business_discovery);
+        } catch (e1) {
+          console.error("Failed to fetch livingcollective.india", e1.response?.data?.error || e1.message);
+        }
+        
+        try {
+          const p2 = await axios.get(`https://graph.facebook.com/v21.0/${igAccountId}?fields=business_discovery.username(the.umrah.company){username,profile_picture_url,followers_count,biography}&access_token=${token}`);
+          if (p2.data?.business_discovery) partners.push(p2.data.business_discovery);
+        } catch (e2) {
+          console.error("Failed to fetch the.umrah.company", e2.response?.data?.error || e2.message);
+        }
+      }
+    } catch (partnerErr) {
+      console.error("[Account Details API] Failed to fetch partner accounts", partnerErr.message);
+    }
+    
+    res.json({
+      success: true,
+      data: {
+        ...pageRes.data,
+        tokenValidDays,
+        partners
+      }
+    });
+  } catch (err) {
+    console.error('[Account Details API] Error:', err.response?.data || err.message);
+    res.status(500).json({ success: false, error: "Failed to fetch account details from Meta" });
+  }
+});
+
 app.get('/', (req, res) => {
   res.send('Instagram CRM API is running');
 });
