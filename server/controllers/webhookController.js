@@ -2,6 +2,7 @@ const Lead = require('../models/Lead');
 const Conversation = require('../models/Conversation');
 const Message = require('../models/Message');
 const automationEngine = require('../services/automationEngine');
+const chatSyncService = require('../services/chatSyncService');
 
 // Verify Webhook - Meta API
 exports.verifyWebhook = (req, res) => {
@@ -246,3 +247,9 @@ async function handleDirectMessage(messageEvent, businessAccountId, fallbackTime
     );
   }
 }
+
+// Handle incoming ChatSyncs Webhook
+exports.handleChatSyncsEvent = async (req, res) => {
+  res.status(200).send('EVENT_RECEIVED');
+  await chatSyncService.handleWebhook(req.body);
+};

@@ -256,7 +256,7 @@ export default function LeadDetailModal({ leadId, onClose, onNext, onPrev }) {
           setIsRenewal(leadData.isRenewal || false);
           const p = leadData.platform || "other";
           if (
-            ["instagram", "facebook", "youtube", "linkedin", "other"].includes(
+            ["instagram", "facebook", "youtube", "linkedin", "whatsapp", "other"].includes(
               p,
             )
           ) {
@@ -844,6 +844,7 @@ export default function LeadDetailModal({ leadId, onClose, onNext, onPrev }) {
                   onChange={(e) => setPlatform(e.target.value)}
                   options={[
                     { value: "instagram", label: "Instagram" },
+                    { value: "whatsapp", label: "WhatsApp" },
                     { value: "facebook", label: "Facebook" },
                     { value: "youtube", label: "YouTube" },
                     { value: "linkedin", label: "LinkedIn" },
@@ -1132,7 +1133,7 @@ export default function LeadDetailModal({ leadId, onClose, onNext, onPrev }) {
               </div>
 
               {/* Message Input */}
-              {false && lead?.platformUserId && (
+              {lead?.platformUserId && (lead?.platform === 'whatsapp' || lead?.platform === 'instagram') && (
                 <div className="p-4 bg-[var(--color-bg-card)] border-t border-[var(--color-border-subtle)] shrink-0">
                   <div className="flex gap-3 border border-[var(--color-border-subtle)] rounded-full px-4 py-2 bg-[var(--color-bg-card)] items-center transition-colors duration-300">
                     <input

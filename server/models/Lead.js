@@ -11,6 +11,7 @@ const leadSchema = new mongoose.Schema({
   },
   platform: {
     type: String,
+    enum: ['instagram', 'whatsapp'],
     default: 'instagram'
   },
   name: {
@@ -39,7 +40,7 @@ const leadSchema = new mongoose.Schema({
   },
   source: {
     type: String,
-    enum: ['comment', 'dm', 'mention', 'manual', 'other'],
+    enum: ['comment', 'dm', 'mention', 'manual', 'whatsapp', 'other'],
     default: 'dm'
   },
   status: {

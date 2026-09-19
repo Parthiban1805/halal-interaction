@@ -42,10 +42,30 @@ exports.sendMessage = async (req, res) => {
     const { text, receiverId } = req.body;
     const conversationId = req.params.id;
 
+    const conversation = await Conversation.findById(conversationId);
+    if (!conversation) {
+      return res.status(404).json({ success: false, error: 'Conversation not found' });
+    }
+
+    let messageId = `manual_${Date.now()}`;
+    let isWhatsapp = !!conversation.whatsappThreadId;
+
+    if (isWhatsapp) {
+      const chatSyncService = require('../services/chatSyncService');
+      const response = await chatSyncService.sendTextMessage(receiverId, text);
+      // ChatSyncs might return a message ID, we can use it if available
+      if (response && response.messageId) {
+        messageId = response.messageId;
+      }
+    } else {
+      // Instagram send logic goes here if it exists somewhere else in the codebase
+      // Or maybe it's just mock data or another service handles it asynchronously
+    }
+
     // Save to DB
     const message = await Message.create({
       conversationId,
-      instagramMessageId: `manual_${Date.now()}`,
+      [isWhatsapp ? 'whatsappMessageId' : 'instagramMessageId']: messageId,
       senderId: 'system',
       receiverId,
       text,

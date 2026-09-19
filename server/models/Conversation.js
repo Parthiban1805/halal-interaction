@@ -8,7 +8,12 @@ const conversationSchema = new mongoose.Schema({
   },
   instagramThreadId: {
     type: String,
-    required: true,
+    sparse: true,
+    unique: true
+  },
+  whatsappThreadId: {
+    type: String,
+    sparse: true,
     unique: true
   },
   lastMessageAt: {

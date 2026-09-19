@@ -8,7 +8,12 @@ const messageSchema = new mongoose.Schema({
   },
   instagramMessageId: {
     type: String,
-    required: true,
+    sparse: true,
+    unique: true
+  },
+  whatsappMessageId: {
+    type: String,
+    sparse: true,
     unique: true
   },
   senderId: {

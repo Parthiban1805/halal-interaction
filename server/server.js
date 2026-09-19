@@ -2172,23 +2172,29 @@ app.get('/api/leads/:id', require('./middleware/authMiddleware').protect, async 
 
 // Allow sending messages via /api/messages/send (maps to conversations controller)
 const messageRoutes = express.Router();
-const { addMessage } = require('./controllers/conversationController');
+const { sendMessage } = require('./controllers/conversationController');
 messageRoutes.post('/send', require('./middleware/authMiddleware').protect, async (req, res) => {
-  // Translate the payload if necessary, or just call the controller
-  // client-new expects to send to a specific lead or conversation
-  // For safety, we will just proxy it
-  const { leadId, text, type } = req.body;
+  const { recipientId, text } = req.body;
   
   try {
+    const Lead = require('./models/Lead');
+    const lead = await Lead.findOne({ platformUserId: recipientId });
+    if (!lead) return res.status(404).json({ error: 'Lead not found for this platform user' });
+
     const Conversation = require('./models/Conversation');
-    let conv = await Conversation.findOne({ leadId });
+    let conv = await Conversation.findOne({ leadId: lead._id });
     if (!conv) {
-      conv = await Conversation.create({ leadId, status: 'open', lastMessageAt: new Date() });
+      const isWa = lead.platform === 'whatsapp';
+      const threadKey = isWa ? 'whatsappThreadId' : 'instagramThreadId';
+      const threadVal = isWa ? `wa_${recipientId}` : `thread_${recipientId}`;
+      conv = await Conversation.create({ leadId: lead._id, [threadKey]: threadVal });
     }
-    // inject conversationId to req.params for the controller
+
     req.params.id = conv._id;
-    return addMessage(req, res);
+    req.body.receiverId = recipientId;
+    return sendMessage(req, res);
   } catch(err) {
+    console.error('[API] Error sending message:', err);
     res.status(500).json({ error: 'Failed to send message' });
   }
 });

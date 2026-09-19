@@ -72,6 +72,15 @@ async function updatePastEvents() {
 }
 
 function initCronJobs() {
+  const chatSyncService = require('./chatSyncService');
+
+  // Run every 2 minute to poll ChatSyncs API for new WhatsApp messages
+  cron.schedule('*/2 * * * *', () => {
+    if (chatSyncService && typeof chatSyncService.pollChatSyncsMessages === 'function') {
+      chatSyncService.pollChatSyncsMessages();
+    }
+  });
+
   // Run every 24 hours at midnight
   cron.schedule('0 0 * * *', () => {
     calculateWordCloud();
